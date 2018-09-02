@@ -1,0 +1,3824 @@
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityType_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityUserType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityUserType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityUserType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityUserType_GetList_UseInActivityType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityUserType_GetList_UseInUserType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityUserType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityUserType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ActivityUserType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[AdjutancyType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[AdjutancyType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[AdjutancyType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[AdjutancyType_GetList_DepartmentMonthlyInformation]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[AdjutancyType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[AdjutancyType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[AdjutancyType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[AdjutancyType_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[BaseMonthlyInformation_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[BaseMonthlyInformation_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[BaseMonthlyInformation_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[BaseMonthlyInformation_GetList_UseInMainOfficeType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[BaseMonthlyInformation_GetList_UseInMonthType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[BaseMonthlyInformation_GetList_UseInYearType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[BaseMonthlyInformation_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[BaseMonthlyInformation_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[BaseMonthlyInformation_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[BaseMonthlyInformation_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ComputationType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ComputationType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ComputationType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ComputationType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ComputationType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ComputationType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ComputationType_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractType_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractualEmployeeReward_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractualEmployeeReward_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractualEmployeeReward_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractualEmployeeReward_GetList_UseInEmployee]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractualEmployeeReward_GetList_UseInMonthType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractualEmployeeReward_GetList_UseInYearType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractualEmployeeReward_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractualEmployeeReward_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractualEmployeeReward_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[ContractualEmployeeReward_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_GetList_ContractualEmployeeReward]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_GetList_OfficialEmployeeReward]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_GetList_UseInAdjutancyType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_GetList_UseInComputationType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_GetList_UseInMainOfficeType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Department_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_DeleteBy_YearTypeIDMonthTypeID]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_GetDetailsBy_YearTypeIDMonthTypeID]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_GetList_UseInDepartment]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_GetList_UseInMonthType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_GetList_UseInYearType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_GetListByYearTypeIDMonthTypeID]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[DepartmentMonthlyInformation_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Employee_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Employee_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Employee_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Employee_GetList_UseInContractType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Employee_GetList_UseInDepartment]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Employee_GetList_UseInRoleType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Employee_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Employee_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Employee_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[Employee_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[EmployeeUserType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[EmployeeUserType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[EmployeeUserType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[EmployeeUserType_GetList_UseInEmployee]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[EmployeeUserType_GetList_UseInUserType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[EmployeeUserType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[EmployeeUserType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[EmployeeUserType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MainOfficeType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MainOfficeType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MainOfficeType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MainOfficeType_GetList_ContractualEmployeeReward]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MainOfficeType_GetList_OfficialEmployeeReward]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MainOfficeType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MainOfficeType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MainOfficeType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MainOfficeType_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MonthType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MonthType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MonthType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MonthType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MonthType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MonthType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[MonthType_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[OfficialEmployeeReward_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[OfficialEmployeeReward_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[OfficialEmployeeReward_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[OfficialEmployeeReward_GetList_UseInEmployee]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[OfficialEmployeeReward_GetList_UseInMonthType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[OfficialEmployeeReward_GetList_UseInYearType]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[OfficialEmployeeReward_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[OfficialEmployeeReward_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[OfficialEmployeeReward_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[OfficialEmployeeReward_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[RoleType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[RoleType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[RoleType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[RoleType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[RoleType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[RoleType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[RoleType_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[UserType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[UserType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[UserType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[UserType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[UserType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[UserType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[UserType_Update]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[YearType_Delete]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[YearType_Exists]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[YearType_GetDetails]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[YearType_GetListAll]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[YearType_Insert]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[YearType_SearchLike]
+GO
+
+
+
+
+USE [RewardsDB]
+DROP PROCEDURE [dbo].[YearType_Update]
+GO
+
+
+
+
+--1 Procedure to INSERT a new row into ActivityType
+CREATE PROCEDURE dbo.ActivityType_Insert
+	(
+		@Title nvarchar(200)
+	)
+AS
+	insert into [ActivityType]
+	( [Title] )
+	values
+	( @Title )
+	SELECT @@IDENTITY
+	GO
+
+
+
+--2 Procedure to DELETE a row from ActivityType
+CREATE PROCEDURE dbo.ActivityType_Delete
+	(
+		@ActivityTypeID int
+	)
+AS
+	delete from [ActivityType] where ActivityTypeID = @ActivityTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from ActivityType
+CREATE PROCEDURE dbo.ActivityType_GetDetails
+	(
+		@ActivityTypeID int
+	)
+AS
+	select * from [ActivityType] where ActivityTypeID = @ActivityTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from ActivityType
+CREATE PROCEDURE dbo.ActivityType_GetListAll
+AS
+	select rTrim([ActivityTypeID]) as ActivityTypeID , rTrim([Title]) as Title  from [ActivityType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of ActivityType
+CREATE PROCEDURE dbo.ActivityType_Update
+	(
+		@ActivityTypeID int,
+		@Title nvarchar(200)
+	)
+AS
+	update [ActivityType]
+	set
+		[Title] = @Title
+	where
+		[ActivityTypeID] = @ActivityTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a ActivityType record existance
+CREATE PROCEDURE dbo.ActivityType_Exists
+	(
+		@ActivityTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [ActivityType] where ActivityTypeID = @ActivityTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search ActivityType
+CREATE PROCEDURE dbo.ActivityType_SearchLike
+	(
+		@ActivityTypeID int = null,
+		@Title nvarchar(200) = null
+	)
+AS
+	SELECT * FROM [ActivityType] WHERE 
+
+
+	(@ActivityTypeID IS null OR @ActivityTypeID = 0 OR ([ActivityType].ActivityTypeID = @ActivityTypeID))
+	AND
+	(@Title IS null OR ([ActivityType].Title LIKE N'%' + @Title + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into ActivityUserType
+CREATE PROCEDURE dbo.ActivityUserType_Insert
+	(
+		@ActivityTypeID int,
+		@UserTypeID int
+	)
+AS
+	insert into [ActivityUserType]
+	( [ActivityTypeID] , [UserTypeID] )
+	values
+	( @ActivityTypeID , @UserTypeID )
+	SELECT @ActivityTypeID
+	GO
+
+
+
+--2 Procedure to DELETE a row from ActivityUserType
+CREATE PROCEDURE dbo.ActivityUserType_Delete
+	(
+		@ActivityTypeID int,
+		@UserTypeID int
+	)
+AS
+	delete from [ActivityUserType] where ActivityTypeID = @ActivityTypeID and UserTypeID = @UserTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from ActivityUserType
+CREATE PROCEDURE dbo.ActivityUserType_GetDetails
+	(
+		@ActivityTypeID int,
+		@UserTypeID int
+	)
+AS
+	select * from [ActivityUserType] where ActivityTypeID = @ActivityTypeID and UserTypeID = @UserTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from ActivityUserType
+CREATE PROCEDURE dbo.ActivityUserType_GetListAll
+AS
+	select rTrim([ActivityTypeID]) as ActivityTypeID , rTrim([UserTypeID]) as UserTypeID , rTrim([ActivityTypeIDTitle]) as ActivityTypeIDTitle , rTrim([UserTypeIDTitle]) as UserTypeIDTitle  from [ActivityUserType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of ActivityUserType
+CREATE PROCEDURE dbo.ActivityUserType_Update
+	(
+		@ActivityTypeID int,
+		@UserTypeID int
+	)
+AS
+	update [ActivityUserType]
+	se
+	where
+		[ActivityTypeID] = @ActivityTypeID and [UserTypeID] = @UserTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a ActivityUserType record existance
+CREATE PROCEDURE dbo.ActivityUserType_Exists
+	(
+		@ActivityTypeID int,
+		@UserTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [ActivityUserType] where ActivityTypeID = @ActivityTypeID and UserTypeID = @UserTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search ActivityUserType
+CREATE PROCEDURE dbo.ActivityUserType_SearchLike
+	(
+		@ActivityTypeID int = null,
+		@UserTypeID int = null,
+		@ActivityTypeIDTitle nvarchar(500) = null,
+		@UserTypeIDTitle nvarchar(500) = null
+	)
+AS
+	SELECT * FROM [ActivityUserType] WHERE 
+
+
+	(@ActivityTypeID IS null OR @ActivityTypeID = 0 OR ([ActivityUserType].ActivityTypeID = @ActivityTypeID))
+	AND
+	(@UserTypeID IS null OR @UserTypeID = 0 OR ([ActivityUserType].UserTypeID = @UserTypeID))
+	AND
+	(@ActivityTypeIDTitle IS null OR ([ActivityUserType].ActivityTypeIDTitle LIKE N'%' + @ActivityTypeIDTitle + '%'))
+	AND
+	(@UserTypeIDTitle IS null OR ([ActivityUserType].UserTypeIDTitle LIKE N'%' + @UserTypeIDTitle + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into AdjutancyType
+CREATE PROCEDURE dbo.AdjutancyType_Insert
+	(
+		@AdjutantNationalCode bigint,
+		@Title nvarchar(500)
+	)
+AS
+	insert into [AdjutancyType]
+	( [AdjutantNationalCode] , [Title] )
+	values
+	( @AdjutantNationalCode , @Title )
+	SELECT @@IDENTITY
+	GO
+
+
+
+--2 Procedure to DELETE a row from AdjutancyType
+CREATE PROCEDURE dbo.AdjutancyType_Delete
+	(
+		@AdjutancyTypeID int
+	)
+AS
+	delete from [AdjutancyType] where AdjutancyTypeID = @AdjutancyTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from AdjutancyType
+CREATE PROCEDURE dbo.AdjutancyType_GetDetails
+	(
+		@AdjutancyTypeID int
+	)
+AS
+	select * from [AdjutancyType] where AdjutancyTypeID = @AdjutancyTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from AdjutancyType
+CREATE PROCEDURE dbo.AdjutancyType_GetListAll
+AS
+	select rTrim([AdjutancyTypeID]) as AdjutancyTypeID , rTrim([AdjutantFullName]) as AdjutantFullName , rTrim([AdjutantNationalCode]) as AdjutantNationalCode , rTrim([Title]) as Title  from [AdjutancyType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of AdjutancyType
+CREATE PROCEDURE dbo.AdjutancyType_Update
+	(
+		@AdjutancyTypeID int,
+		@AdjutantNationalCode bigint,
+		@Title nvarchar(500)
+	)
+AS
+	update [AdjutancyType]
+	set
+		[AdjutantNationalCode] = @AdjutantNationalCode,
+		[Title] = @Title
+	where
+		[AdjutancyTypeID] = @AdjutancyTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a AdjutancyType record existance
+CREATE PROCEDURE dbo.AdjutancyType_Exists
+	(
+		@AdjutancyTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [AdjutancyType] where AdjutancyTypeID = @AdjutancyTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search AdjutancyType
+CREATE PROCEDURE dbo.AdjutancyType_SearchLike
+	(
+		@AdjutancyTypeID int = null,
+		@AdjutantFullName nvarchar(500) = null,
+		@AdjutantNationalCode bigint = null,
+		@Title nvarchar(500) = null
+	)
+AS
+	SELECT * FROM [AdjutancyType] WHERE 
+
+
+	(@AdjutancyTypeID IS null OR @AdjutancyTypeID = 0 OR ([AdjutancyType].AdjutancyTypeID = @AdjutancyTypeID))
+	AND
+	(@AdjutantFullName IS null OR ([AdjutancyType].AdjutantFullName LIKE N'%' + @AdjutantFullName + '%'))
+	AND
+	(@AdjutantNationalCode IS null OR @AdjutantNationalCode = 0 OR ([AdjutancyType].AdjutantNationalCode = @AdjutantNationalCode))
+	AND
+	(@Title IS null OR ([AdjutancyType].Title LIKE N'%' + @Title + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into BaseMonthlyInformation
+CREATE PROCEDURE dbo.BaseMonthlyInformation_Insert
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@MainOfficeTypeID int,
+		@ContractualReward bigint,
+		@ContractualConstantReward bigint,
+		@ExtraReward bigint,
+		@Factor5 decimal(24,6),
+		@Factor6 decimal(24,6),
+		@Factor7 decimal(24,6),
+		@Factor8 decimal(24,6),
+		@Factor9 decimal(24,6),
+		@Factor10 decimal(24,6),
+		@OfficialReward bigint,
+		@IsFanalized bit,
+		@IsFainalizedEmployeesInformation bit,
+		@IsFainalizedRewardCalculation bit,
+		@BossFactor decimal(24,6),
+		@OperationalFactor decimal(24,6),
+		@Factor1 decimal(24,6),
+		@Factor2 decimal(24,6),
+		@Factor3 decimal(24,6),
+		@Factor4 decimal(24,6)
+	)
+AS
+	insert into [BaseMonthlyInformation]
+	( [YearTypeID] , [MonthTypeID] , [MainOfficeTypeID] , [ContractualReward] , [ContractualConstantReward] , [ExtraReward] , [Factor5] , [Factor6] , [Factor7] , [Factor8] , [Factor9] , [Factor10] , [OfficialReward] , [IsFanalized] , [IsFainalizedEmployeesInformation] , [IsFainalizedRewardCalculation] , [BossFactor] , [OperationalFactor] , [Factor1] , [Factor2] , [Factor3] , [Factor4] )
+	values
+	( @YearTypeID , @MonthTypeID , @MainOfficeTypeID , @ContractualReward , @ContractualConstantReward , @ExtraReward , @Factor5 , @Factor6 , @Factor7 , @Factor8 , @Factor9 , @Factor10 , @OfficialReward , @IsFanalized , @IsFainalizedEmployeesInformation , @IsFainalizedRewardCalculation , @BossFactor , @OperationalFactor , @Factor1 , @Factor2 , @Factor3 , @Factor4 )
+	SELECT @YearTypeID
+	GO
+
+
+
+--2 Procedure to DELETE a row from BaseMonthlyInformation
+CREATE PROCEDURE dbo.BaseMonthlyInformation_Delete
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@MainOfficeTypeID int
+	)
+AS
+	delete from [BaseMonthlyInformation] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID and MainOfficeTypeID = @MainOfficeTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from BaseMonthlyInformation
+CREATE PROCEDURE dbo.BaseMonthlyInformation_GetDetails
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@MainOfficeTypeID int
+	)
+AS
+	select * from [BaseMonthlyInformation] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID and MainOfficeTypeID = @MainOfficeTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from BaseMonthlyInformation
+CREATE PROCEDURE dbo.BaseMonthlyInformation_GetListAll
+AS
+	select rTrim([YearTypeID]) as YearTypeID , rTrim([MonthTypeID]) as MonthTypeID , rTrim([MainOfficeTypeID]) as MainOfficeTypeID , rTrim([ValueToScore]) as ValueToScore , rTrim([TotalOperationalReward]) as TotalOperationalReward , rTrim([TotalOrganizationalReward]) as TotalOrganizationalReward , rTrim([ContractualDividableReward]) as ContractualDividableReward , rTrim([ContractualBossReward]) as ContractualBossReward , rTrim([ContractualDevotedReward]) as ContractualDevotedReward , rTrim([ContractualRemainingReward]) as ContractualRemainingReward , rTrim([DividableReward]) as DividableReward , rTrim([BossReward]) as BossReward , rTrim([DevotedReward]) as DevotedReward , rTrim([RemainingReward]) as RemainingReward , rTrim([YearTypeIDTitle]) as YearTypeIDTitle , rTrim([MonthTypeIDTitle]) as MonthTypeIDTitle , rTrim([ContractualReward]) as ContractualReward , rTrim([ContractualConstantReward]) as ContractualConstantReward , rTrim([ExtraReward]) as ExtraReward , rTrim([Factor5]) as Factor5 , rTrim([Factor6]) as Factor6 , rTrim([Factor7]) as Factor7 , rTrim([Factor8]) as Factor8 , rTrim([Factor9]) as Factor9 , rTrim([Factor10]) as Factor10 , rTrim([OfficialReward]) as OfficialReward , rTrim([IsFanalized]) as IsFanalized , rTrim([IsFainalizedEmployeesInformation]) as IsFainalizedEmployeesInformation , rTrim([IsFainalizedRewardCalculation]) as IsFainalizedRewardCalculation , rTrim([BossFactor]) as BossFactor , rTrim([OperationalFactor]) as OperationalFactor , rTrim([Factor1]) as Factor1 , rTrim([Factor2]) as Factor2 , rTrim([Factor3]) as Factor3 , rTrim([Factor4]) as Factor4  from [BaseMonthlyInformation]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of BaseMonthlyInformation
+CREATE PROCEDURE dbo.BaseMonthlyInformation_Update
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@MainOfficeTypeID int,
+		@ContractualReward bigint,
+		@ContractualConstantReward bigint,
+		@ExtraReward bigint,
+		@Factor5 decimal(24,6),
+		@Factor6 decimal(24,6),
+		@Factor7 decimal(24,6),
+		@Factor8 decimal(24,6),
+		@Factor9 decimal(24,6),
+		@Factor10 decimal(24,6),
+		@OfficialReward bigint,
+		@IsFanalized bit,
+		@IsFainalizedEmployeesInformation bit,
+		@IsFainalizedRewardCalculation bit,
+		@BossFactor decimal(24,6),
+		@OperationalFactor decimal(24,6),
+		@Factor1 decimal(24,6),
+		@Factor2 decimal(24,6),
+		@Factor3 decimal(24,6),
+		@Factor4 decimal(24,6)
+	)
+AS
+	update [BaseMonthlyInformation]
+	set
+		[ContractualReward] = @ContractualReward,
+		[ContractualConstantReward] = @ContractualConstantReward,
+		[ExtraReward] = @ExtraReward,
+		[Factor5] = @Factor5,
+		[Factor6] = @Factor6,
+		[Factor7] = @Factor7,
+		[Factor8] = @Factor8,
+		[Factor9] = @Factor9,
+		[Factor10] = @Factor10,
+		[OfficialReward] = @OfficialReward,
+		[IsFanalized] = @IsFanalized,
+		[IsFainalizedEmployeesInformation] = @IsFainalizedEmployeesInformation,
+		[IsFainalizedRewardCalculation] = @IsFainalizedRewardCalculation,
+		[BossFactor] = @BossFactor,
+		[OperationalFactor] = @OperationalFactor,
+		[Factor1] = @Factor1,
+		[Factor2] = @Factor2,
+		[Factor3] = @Factor3,
+		[Factor4] = @Factor4
+	where
+		[YearTypeID] = @YearTypeID and [MonthTypeID] = @MonthTypeID and [MainOfficeTypeID] = @MainOfficeTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a BaseMonthlyInformation record existance
+CREATE PROCEDURE dbo.BaseMonthlyInformation_Exists
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@MainOfficeTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [BaseMonthlyInformation] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID and MainOfficeTypeID = @MainOfficeTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search BaseMonthlyInformation
+CREATE PROCEDURE dbo.BaseMonthlyInformation_SearchLike
+	(
+		@YearTypeID int = null,
+		@MonthTypeID int = null,
+		@MainOfficeTypeID int = null,
+		@ValueToScore decimal = null,
+		@TotalOperationalReward bigint = null,
+		@TotalOrganizationalReward bigint = null,
+		@ContractualDividableReward bigint = null,
+		@ContractualBossReward bigint = null,
+		@ContractualDevotedReward bigint = null,
+		@ContractualRemainingReward bigint = null,
+		@DividableReward bigint = null,
+		@BossReward bigint = null,
+		@DevotedReward bigint = null,
+		@RemainingReward bigint = null,
+		@YearTypeIDTitle nvarchar(500) = null,
+		@MonthTypeIDTitle nvarchar(500) = null,
+		@ContractualReward bigint = null,
+		@ContractualConstantReward bigint = null,
+		@ExtraReward bigint = null,
+		@Factor5 decimal = null,
+		@Factor6 decimal = null,
+		@Factor7 decimal = null,
+		@Factor8 decimal = null,
+		@Factor9 decimal = null,
+		@Factor10 decimal = null,
+		@OfficialReward bigint = null,
+		@IsFanalized bit = null,
+		@IsFainalizedEmployeesInformation bit = null,
+		@IsFainalizedRewardCalculation bit = null,
+		@BossFactor decimal = null,
+		@OperationalFactor decimal = null,
+		@Factor1 decimal = null,
+		@Factor2 decimal = null,
+		@Factor3 decimal = null,
+		@Factor4 decimal = null
+	)
+AS
+	SELECT * FROM [BaseMonthlyInformation] WHERE 
+
+
+	(@YearTypeID IS null OR @YearTypeID = 0 OR ([BaseMonthlyInformation].YearTypeID = @YearTypeID))
+	AND
+	(@MonthTypeID IS null OR @MonthTypeID = 0 OR ([BaseMonthlyInformation].MonthTypeID = @MonthTypeID))
+	AND
+	(@MainOfficeTypeID IS null OR @MainOfficeTypeID = 0 OR ([BaseMonthlyInformation].MainOfficeTypeID = @MainOfficeTypeID))
+	AND
+	(@ValueToScore IS null OR @ValueToScore = 0 OR ([BaseMonthlyInformation].ValueToScore = @ValueToScore))
+	AND
+	(@TotalOperationalReward IS null OR @TotalOperationalReward = 0 OR ([BaseMonthlyInformation].TotalOperationalReward = @TotalOperationalReward))
+	AND
+	(@TotalOrganizationalReward IS null OR @TotalOrganizationalReward = 0 OR ([BaseMonthlyInformation].TotalOrganizationalReward = @TotalOrganizationalReward))
+	AND
+	(@ContractualDividableReward IS null OR @ContractualDividableReward = 0 OR ([BaseMonthlyInformation].ContractualDividableReward = @ContractualDividableReward))
+	AND
+	(@ContractualBossReward IS null OR @ContractualBossReward = 0 OR ([BaseMonthlyInformation].ContractualBossReward = @ContractualBossReward))
+	AND
+	(@ContractualDevotedReward IS null OR @ContractualDevotedReward = 0 OR ([BaseMonthlyInformation].ContractualDevotedReward = @ContractualDevotedReward))
+	AND
+	(@ContractualRemainingReward IS null OR @ContractualRemainingReward = 0 OR ([BaseMonthlyInformation].ContractualRemainingReward = @ContractualRemainingReward))
+	AND
+	(@DividableReward IS null OR @DividableReward = 0 OR ([BaseMonthlyInformation].DividableReward = @DividableReward))
+	AND
+	(@BossReward IS null OR @BossReward = 0 OR ([BaseMonthlyInformation].BossReward = @BossReward))
+	AND
+	(@DevotedReward IS null OR @DevotedReward = 0 OR ([BaseMonthlyInformation].DevotedReward = @DevotedReward))
+	AND
+	(@RemainingReward IS null OR @RemainingReward = 0 OR ([BaseMonthlyInformation].RemainingReward = @RemainingReward))
+	AND
+	(@YearTypeIDTitle IS null OR ([BaseMonthlyInformation].YearTypeIDTitle LIKE N'%' + @YearTypeIDTitle + '%'))
+	AND
+	(@MonthTypeIDTitle IS null OR ([BaseMonthlyInformation].MonthTypeIDTitle LIKE N'%' + @MonthTypeIDTitle + '%'))
+	AND
+	(@ContractualReward IS null OR @ContractualReward = 0 OR ([BaseMonthlyInformation].ContractualReward = @ContractualReward))
+	AND
+	(@ContractualConstantReward IS null OR @ContractualConstantReward = 0 OR ([BaseMonthlyInformation].ContractualConstantReward = @ContractualConstantReward))
+	AND
+	(@ExtraReward IS null OR @ExtraReward = 0 OR ([BaseMonthlyInformation].ExtraReward = @ExtraReward))
+	AND
+	(@Factor5 IS null OR @Factor5 = 0 OR ([BaseMonthlyInformation].Factor5 = @Factor5))
+	AND
+	(@Factor6 IS null OR @Factor6 = 0 OR ([BaseMonthlyInformation].Factor6 = @Factor6))
+	AND
+	(@Factor7 IS null OR @Factor7 = 0 OR ([BaseMonthlyInformation].Factor7 = @Factor7))
+	AND
+	(@Factor8 IS null OR @Factor8 = 0 OR ([BaseMonthlyInformation].Factor8 = @Factor8))
+	AND
+	(@Factor9 IS null OR @Factor9 = 0 OR ([BaseMonthlyInformation].Factor9 = @Factor9))
+	AND
+	(@Factor10 IS null OR @Factor10 = 0 OR ([BaseMonthlyInformation].Factor10 = @Factor10))
+	AND
+	(@OfficialReward IS null OR @OfficialReward = 0 OR ([BaseMonthlyInformation].OfficialReward = @OfficialReward))
+	AND
+	(@IsFanalized IS null OR @IsFanalized = 0 OR ([BaseMonthlyInformation].IsFanalized = @IsFanalized))
+	AND
+	(@IsFainalizedEmployeesInformation IS null OR @IsFainalizedEmployeesInformation = 0 OR ([BaseMonthlyInformation].IsFainalizedEmployeesInformation = @IsFainalizedEmployeesInformation))
+	AND
+	(@IsFainalizedRewardCalculation IS null OR @IsFainalizedRewardCalculation = 0 OR ([BaseMonthlyInformation].IsFainalizedRewardCalculation = @IsFainalizedRewardCalculation))
+	AND
+	(@BossFactor IS null OR @BossFactor = 0 OR ([BaseMonthlyInformation].BossFactor = @BossFactor))
+	AND
+	(@OperationalFactor IS null OR @OperationalFactor = 0 OR ([BaseMonthlyInformation].OperationalFactor = @OperationalFactor))
+	AND
+	(@Factor1 IS null OR @Factor1 = 0 OR ([BaseMonthlyInformation].Factor1 = @Factor1))
+	AND
+	(@Factor2 IS null OR @Factor2 = 0 OR ([BaseMonthlyInformation].Factor2 = @Factor2))
+	AND
+	(@Factor3 IS null OR @Factor3 = 0 OR ([BaseMonthlyInformation].Factor3 = @Factor3))
+	AND
+	(@Factor4 IS null OR @Factor4 = 0 OR ([BaseMonthlyInformation].Factor4 = @Factor4))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into ComputationType
+CREATE PROCEDURE dbo.ComputationType_Insert
+	(
+		@Title nvarchar(100)
+	)
+AS
+	insert into [ComputationType]
+	( [Title] )
+	values
+	( @Title )
+	SELECT @@IDENTITY
+	GO
+
+
+
+--2 Procedure to DELETE a row from ComputationType
+CREATE PROCEDURE dbo.ComputationType_Delete
+	(
+		@ComputationTypeID int
+	)
+AS
+	delete from [ComputationType] where ComputationTypeID = @ComputationTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from ComputationType
+CREATE PROCEDURE dbo.ComputationType_GetDetails
+	(
+		@ComputationTypeID int
+	)
+AS
+	select * from [ComputationType] where ComputationTypeID = @ComputationTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from ComputationType
+CREATE PROCEDURE dbo.ComputationType_GetListAll
+AS
+	select rTrim([ComputationTypeID]) as ComputationTypeID , rTrim([Title]) as Title  from [ComputationType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of ComputationType
+CREATE PROCEDURE dbo.ComputationType_Update
+	(
+		@ComputationTypeID int,
+		@Title nvarchar(100)
+	)
+AS
+	update [ComputationType]
+	set
+		[Title] = @Title
+	where
+		[ComputationTypeID] = @ComputationTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a ComputationType record existance
+CREATE PROCEDURE dbo.ComputationType_Exists
+	(
+		@ComputationTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [ComputationType] where ComputationTypeID = @ComputationTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search ComputationType
+CREATE PROCEDURE dbo.ComputationType_SearchLike
+	(
+		@ComputationTypeID int = null,
+		@Title nvarchar(100) = null
+	)
+AS
+	SELECT * FROM [ComputationType] WHERE 
+
+
+	(@ComputationTypeID IS null OR @ComputationTypeID = 0 OR ([ComputationType].ComputationTypeID = @ComputationTypeID))
+	AND
+	(@Title IS null OR ([ComputationType].Title LIKE N'%' + @Title + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into ContractType
+CREATE PROCEDURE dbo.ContractType_Insert
+	(
+		@Title nvarchar(100)
+	)
+AS
+	insert into [ContractType]
+	( [Title] )
+	values
+	( @Title )
+	SELECT @@IDENTITY
+	GO
+
+
+
+--2 Procedure to DELETE a row from ContractType
+CREATE PROCEDURE dbo.ContractType_Delete
+	(
+		@ContractTypeID int
+	)
+AS
+	delete from [ContractType] where ContractTypeID = @ContractTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from ContractType
+CREATE PROCEDURE dbo.ContractType_GetDetails
+	(
+		@ContractTypeID int
+	)
+AS
+	select * from [ContractType] where ContractTypeID = @ContractTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from ContractType
+CREATE PROCEDURE dbo.ContractType_GetListAll
+AS
+	select rTrim([ContractTypeID]) as ContractTypeID , rTrim([Title]) as Title  from [ContractType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of ContractType
+CREATE PROCEDURE dbo.ContractType_Update
+	(
+		@ContractTypeID int,
+		@Title nvarchar(100)
+	)
+AS
+	update [ContractType]
+	set
+		[Title] = @Title
+	where
+		[ContractTypeID] = @ContractTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a ContractType record existance
+CREATE PROCEDURE dbo.ContractType_Exists
+	(
+		@ContractTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [ContractType] where ContractTypeID = @ContractTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search ContractType
+CREATE PROCEDURE dbo.ContractType_SearchLike
+	(
+		@ContractTypeID int = null,
+		@Title nvarchar(100) = null
+	)
+AS
+	SELECT * FROM [ContractType] WHERE 
+
+
+	(@ContractTypeID IS null OR @ContractTypeID = 0 OR ([ContractType].ContractTypeID = @ContractTypeID))
+	AND
+	(@Title IS null OR ([ContractType].Title LIKE N'%' + @Title + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into ContractualEmployeeReward
+CREATE PROCEDURE dbo.ContractualEmployeeReward_Insert
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@NationalCode bigint,
+		@Reward bigint,
+		@BossFinalValue bigint,
+		@AssistantFinalValue bigint,
+		@ManagerFinalValue bigint,
+		@ExtraReward1 bigint,
+		@ExtraReward2 bigint,
+		@ExtraReward3 bigint
+	)
+AS
+	insert into [ContractualEmployeeReward]
+	( [YearTypeID] , [MonthTypeID] , [NationalCode] , [Reward] , [BossFinalValue] , [AssistantFinalValue] , [ManagerFinalValue] , [ExtraReward1] , [ExtraReward2] , [ExtraReward3] )
+	values
+	( @YearTypeID , @MonthTypeID , @NationalCode , @Reward , @BossFinalValue , @AssistantFinalValue , @ManagerFinalValue , @ExtraReward1 , @ExtraReward2 , @ExtraReward3 )
+	SELECT @YearTypeID
+	GO
+
+
+
+--2 Procedure to DELETE a row from ContractualEmployeeReward
+CREATE PROCEDURE dbo.ContractualEmployeeReward_Delete
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@NationalCode bigint
+	)
+AS
+	delete from [ContractualEmployeeReward] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID and NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from ContractualEmployeeReward
+CREATE PROCEDURE dbo.ContractualEmployeeReward_GetDetails
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@NationalCode bigint
+	)
+AS
+	select * from [ContractualEmployeeReward] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID and NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from ContractualEmployeeReward
+CREATE PROCEDURE dbo.ContractualEmployeeReward_GetListAll
+AS
+	select rTrim([YearTypeID]) as YearTypeID , rTrim([MonthTypeID]) as MonthTypeID , rTrim([NationalCode]) as NationalCode , rTrim([TotalReward]) as TotalReward , rTrim([Reward_]) as Reward_ , rTrim([EmployeeFullName]) as EmployeeFullName , rTrim([DepartmentIDTitle]) as DepartmentIDTitle , rTrim([YearTypeIDTitle]) as YearTypeIDTitle , rTrim([MonthTypeIDTitle]) as MonthTypeIDTitle , rTrim([Reward]) as Reward , rTrim([BossFinalValue]) as BossFinalValue , rTrim([AssistantFinalValue]) as AssistantFinalValue , rTrim([ManagerFinalValue]) as ManagerFinalValue , rTrim([ExtraReward1]) as ExtraReward1 , rTrim([ExtraReward2]) as ExtraReward2 , rTrim([ExtraReward3]) as ExtraReward3  from [ContractualEmployeeReward]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of ContractualEmployeeReward
+CREATE PROCEDURE dbo.ContractualEmployeeReward_Update
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@NationalCode bigint,
+		@Reward bigint,
+		@BossFinalValue bigint,
+		@AssistantFinalValue bigint,
+		@ManagerFinalValue bigint,
+		@ExtraReward1 bigint,
+		@ExtraReward2 bigint,
+		@ExtraReward3 bigint
+	)
+AS
+	update [ContractualEmployeeReward]
+	set
+		[Reward] = @Reward,
+		[BossFinalValue] = @BossFinalValue,
+		[AssistantFinalValue] = @AssistantFinalValue,
+		[ManagerFinalValue] = @ManagerFinalValue,
+		[ExtraReward1] = @ExtraReward1,
+		[ExtraReward2] = @ExtraReward2,
+		[ExtraReward3] = @ExtraReward3
+	where
+		[YearTypeID] = @YearTypeID and [MonthTypeID] = @MonthTypeID and [NationalCode] = @NationalCode
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a ContractualEmployeeReward record existance
+CREATE PROCEDURE dbo.ContractualEmployeeReward_Exists
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@NationalCode bigint
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [ContractualEmployeeReward] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID and NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--X Procedure to Search ContractualEmployeeReward
+CREATE PROCEDURE dbo.ContractualEmployeeReward_SearchLike
+	(
+		@YearTypeID int = null,
+		@MonthTypeID int = null,
+		@NationalCode bigint = null,
+		@TotalReward bigint = null,
+		@Reward_ bigint = null,
+		@EmployeeFullName nvarchar(500) = null,
+		@DepartmentIDTitle nvarchar(500) = null,
+		@YearTypeIDTitle nvarchar(500) = null,
+		@MonthTypeIDTitle nvarchar(500) = null,
+		@Reward bigint = null,
+		@BossFinalValue bigint = null,
+		@AssistantFinalValue bigint = null,
+		@ManagerFinalValue bigint = null,
+		@ExtraReward1 bigint = null,
+		@ExtraReward2 bigint = null,
+		@ExtraReward3 bigint = null
+	)
+AS
+	SELECT * FROM [ContractualEmployeeReward] WHERE 
+
+
+	(@YearTypeID IS null OR @YearTypeID = 0 OR ([ContractualEmployeeReward].YearTypeID = @YearTypeID))
+	AND
+	(@MonthTypeID IS null OR @MonthTypeID = 0 OR ([ContractualEmployeeReward].MonthTypeID = @MonthTypeID))
+	AND
+	(@NationalCode IS null OR @NationalCode = 0 OR ([ContractualEmployeeReward].NationalCode = @NationalCode))
+	AND
+	(@TotalReward IS null OR @TotalReward = 0 OR ([ContractualEmployeeReward].TotalReward = @TotalReward))
+	AND
+	(@Reward_ IS null OR @Reward_ = 0 OR ([ContractualEmployeeReward].Reward_ = @Reward_))
+	AND
+	(@EmployeeFullName IS null OR ([ContractualEmployeeReward].EmployeeFullName LIKE N'%' + @EmployeeFullName + '%'))
+	AND
+	(@DepartmentIDTitle IS null OR ([ContractualEmployeeReward].DepartmentIDTitle LIKE N'%' + @DepartmentIDTitle + '%'))
+	AND
+	(@YearTypeIDTitle IS null OR ([ContractualEmployeeReward].YearTypeIDTitle LIKE N'%' + @YearTypeIDTitle + '%'))
+	AND
+	(@MonthTypeIDTitle IS null OR ([ContractualEmployeeReward].MonthTypeIDTitle LIKE N'%' + @MonthTypeIDTitle + '%'))
+	AND
+	(@Reward IS null OR @Reward = 0 OR ([ContractualEmployeeReward].Reward = @Reward))
+	AND
+	(@BossFinalValue IS null OR @BossFinalValue = 0 OR ([ContractualEmployeeReward].BossFinalValue = @BossFinalValue))
+	AND
+	(@AssistantFinalValue IS null OR @AssistantFinalValue = 0 OR ([ContractualEmployeeReward].AssistantFinalValue = @AssistantFinalValue))
+	AND
+	(@ManagerFinalValue IS null OR @ManagerFinalValue = 0 OR ([ContractualEmployeeReward].ManagerFinalValue = @ManagerFinalValue))
+	AND
+	(@ExtraReward1 IS null OR @ExtraReward1 = 0 OR ([ContractualEmployeeReward].ExtraReward1 = @ExtraReward1))
+	AND
+	(@ExtraReward2 IS null OR @ExtraReward2 = 0 OR ([ContractualEmployeeReward].ExtraReward2 = @ExtraReward2))
+	AND
+	(@ExtraReward3 IS null OR @ExtraReward3 = 0 OR ([ContractualEmployeeReward].ExtraReward3 = @ExtraReward3))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into Department
+CREATE PROCEDURE dbo.Department_Insert
+	(
+		@ComputationTypeID int,
+		@MainOfficeTypeID int,
+		@AdjutancyTypeID int,
+		@TotalEmployeeNumber int,
+		@TotalContractualEmployeeNumber int,
+		@TotalPersonalScore decimal(24,6),
+		@DividerNationalCode bigint,
+		@Title nvarchar(500)
+	)
+AS
+	insert into [Department]
+	( [ComputationTypeID] , [MainOfficeTypeID] , [AdjutancyTypeID] , [TotalEmployeeNumber] , [TotalContractualEmployeeNumber] , [TotalPersonalScore] , [DividerNationalCode] , [Title] )
+	values
+	( @ComputationTypeID , @MainOfficeTypeID , @AdjutancyTypeID , @TotalEmployeeNumber , @TotalContractualEmployeeNumber , @TotalPersonalScore , @DividerNationalCode , @Title )
+	SELECT @@IDENTITY
+	GO
+
+
+
+--2 Procedure to DELETE a row from Department
+CREATE PROCEDURE dbo.Department_Delete
+	(
+		@DepartmentID int
+	)
+AS
+	delete from [Department] where DepartmentID = @DepartmentID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from Department
+CREATE PROCEDURE dbo.Department_GetDetails
+	(
+		@DepartmentID int
+	)
+AS
+	select * from [Department] where DepartmentID = @DepartmentID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from Department
+CREATE PROCEDURE dbo.Department_GetListAll
+AS
+	select rTrim([DepartmentID]) as DepartmentID , rTrim([DividerFullName]) as DividerFullName , rTrim([ComputationTypeIDTitle]) as ComputationTypeIDTitle , rTrim([MainOfficeTypeIDTitle]) as MainOfficeTypeIDTitle , rTrim([AdjutancyTypeIDTitle]) as AdjutancyTypeIDTitle , rTrim([ComputationTypeID]) as ComputationTypeID , rTrim([MainOfficeTypeID]) as MainOfficeTypeID , rTrim([AdjutancyTypeID]) as AdjutancyTypeID , rTrim([TotalEmployeeNumber]) as TotalEmployeeNumber , rTrim([TotalContractualEmployeeNumber]) as TotalContractualEmployeeNumber , rTrim([TotalPersonalScore]) as TotalPersonalScore , rTrim([DividerNationalCode]) as DividerNationalCode , rTrim([Title]) as Title  from [Department]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of Department
+CREATE PROCEDURE dbo.Department_Update
+	(
+		@DepartmentID int,
+		@ComputationTypeID int,
+		@MainOfficeTypeID int,
+		@AdjutancyTypeID int,
+		@TotalEmployeeNumber int,
+		@TotalContractualEmployeeNumber int,
+		@TotalPersonalScore decimal(24,6),
+		@DividerNationalCode bigint,
+		@Title nvarchar(500)
+	)
+AS
+	update [Department]
+	set
+		[ComputationTypeID] = @ComputationTypeID,
+		[MainOfficeTypeID] = @MainOfficeTypeID,
+		[AdjutancyTypeID] = @AdjutancyTypeID,
+		[TotalEmployeeNumber] = @TotalEmployeeNumber,
+		[TotalContractualEmployeeNumber] = @TotalContractualEmployeeNumber,
+		[TotalPersonalScore] = @TotalPersonalScore,
+		[DividerNationalCode] = @DividerNationalCode,
+		[Title] = @Title
+	where
+		[DepartmentID] = @DepartmentID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a Department record existance
+CREATE PROCEDURE dbo.Department_Exists
+	(
+		@DepartmentID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [Department] where DepartmentID = @DepartmentID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search Department
+CREATE PROCEDURE dbo.Department_SearchLike
+	(
+		@DepartmentID int = null,
+		@DividerFullName nvarchar(500) = null,
+		@ComputationTypeIDTitle nvarchar(500) = null,
+		@MainOfficeTypeIDTitle nvarchar(500) = null,
+		@AdjutancyTypeIDTitle nvarchar(500) = null,
+		@ComputationTypeID int = null,
+		@MainOfficeTypeID int = null,
+		@AdjutancyTypeID int = null,
+		@TotalEmployeeNumber int = null,
+		@TotalContractualEmployeeNumber int = null,
+		@TotalPersonalScore decimal = null,
+		@DividerNationalCode bigint = null,
+		@Title nvarchar(500) = null
+	)
+AS
+	SELECT * FROM [Department] WHERE 
+
+
+	(@DepartmentID IS null OR @DepartmentID = 0 OR ([Department].DepartmentID = @DepartmentID))
+	AND
+	(@DividerFullName IS null OR ([Department].DividerFullName LIKE N'%' + @DividerFullName + '%'))
+	AND
+	(@ComputationTypeIDTitle IS null OR ([Department].ComputationTypeIDTitle LIKE N'%' + @ComputationTypeIDTitle + '%'))
+	AND
+	(@MainOfficeTypeIDTitle IS null OR ([Department].MainOfficeTypeIDTitle LIKE N'%' + @MainOfficeTypeIDTitle + '%'))
+	AND
+	(@AdjutancyTypeIDTitle IS null OR ([Department].AdjutancyTypeIDTitle LIKE N'%' + @AdjutancyTypeIDTitle + '%'))
+	AND
+	(@ComputationTypeID IS null OR @ComputationTypeID = 0 OR ([Department].ComputationTypeID = @ComputationTypeID))
+	AND
+	(@MainOfficeTypeID IS null OR @MainOfficeTypeID = 0 OR ([Department].MainOfficeTypeID = @MainOfficeTypeID))
+	AND
+	(@AdjutancyTypeID IS null OR @AdjutancyTypeID = 0 OR ([Department].AdjutancyTypeID = @AdjutancyTypeID))
+	AND
+	(@TotalEmployeeNumber IS null OR @TotalEmployeeNumber = 0 OR ([Department].TotalEmployeeNumber = @TotalEmployeeNumber))
+	AND
+	(@TotalContractualEmployeeNumber IS null OR @TotalContractualEmployeeNumber = 0 OR ([Department].TotalContractualEmployeeNumber = @TotalContractualEmployeeNumber))
+	AND
+	(@TotalPersonalScore IS null OR @TotalPersonalScore = 0 OR ([Department].TotalPersonalScore = @TotalPersonalScore))
+	AND
+	(@DividerNationalCode IS null OR @DividerNationalCode = 0 OR ([Department].DividerNationalCode = @DividerNationalCode))
+	AND
+	(@Title IS null OR ([Department].Title LIKE N'%' + @Title + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into DepartmentMonthlyInformation
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_Insert
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@DepartmentID int,
+		@RewardPerEmployee bigint,
+		@OperationalRewardCalculated bigint,
+		@OperationalReward bigint,
+		@OrganizationalRewardCalculated bigint,
+		@OrganizationalReward bigint,
+		@MonthlyProceed bigint,
+		@DesiredMonthlyProceed bigint,
+		@LastYearProceed bigint,
+		@StatisticsFinalalization bit,
+		@AssistantRewardsFinalization bit,
+		@ManagerRewardsFinalization bit,
+		@IsOfficialRewardsFinalizedBoss bit,
+		@IsOfficialRewardsFinalizedAssistant bit,
+		@IsOfficialRewardsFinalizedManager bit,
+		@ContractualRewardsFinalization bit,
+		@IsContractualRewardsFinalizedBoss bit,
+		@IsContractualRewardsFinalizedAssistant bit,
+		@IsContractualRewardsFinalizedManager bit,
+		@DossierNumber int,
+		@Value3 int,
+		@Value4 int,
+		@Value5 int,
+		@Value6 int,
+		@EmployeeNumber int,
+		@ContractualEmployeeNumber int
+	)
+AS
+	insert into [DepartmentMonthlyInformation]
+	( [YearTypeID] , [MonthTypeID] , [DepartmentID] , [RewardPerEmployee] , [OperationalRewardCalculated] , [OperationalReward] , [OrganizationalRewardCalculated] , [OrganizationalReward] , [MonthlyProceed] , [DesiredMonthlyProceed] , [LastYearProceed] , [StatisticsFinalalization] , [AssistantRewardsFinalization] , [ManagerRewardsFinalization] , [IsOfficialRewardsFinalizedBoss] , [IsOfficialRewardsFinalizedAssistant] , [IsOfficialRewardsFinalizedManager] , [ContractualRewardsFinalization] , [IsContractualRewardsFinalizedBoss] , [IsContractualRewardsFinalizedAssistant] , [IsContractualRewardsFinalizedManager] , [DossierNumber] , [Value3] , [Value4] , [Value5] , [Value6] , [EmployeeNumber] , [ContractualEmployeeNumber] )
+	values
+	( @YearTypeID , @MonthTypeID , @DepartmentID , @RewardPerEmployee , @OperationalRewardCalculated , @OperationalReward , @OrganizationalRewardCalculated , @OrganizationalReward , @MonthlyProceed , @DesiredMonthlyProceed , @LastYearProceed , @StatisticsFinalalization , @AssistantRewardsFinalization , @ManagerRewardsFinalization , @IsOfficialRewardsFinalizedBoss , @IsOfficialRewardsFinalizedAssistant , @IsOfficialRewardsFinalizedManager , @ContractualRewardsFinalization , @IsContractualRewardsFinalizedBoss , @IsContractualRewardsFinalizedAssistant , @IsContractualRewardsFinalizedManager , @DossierNumber , @Value3 , @Value4 , @Value5 , @Value6 , @EmployeeNumber , @ContractualEmployeeNumber )
+	SELECT @YearTypeID
+	GO
+
+
+
+--2 Procedure to DELETE a row from DepartmentMonthlyInformation
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_Delete
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@DepartmentID int
+	)
+AS
+	delete from [DepartmentMonthlyInformation] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID and DepartmentID = @DepartmentID
+	RETURN
+	GO
+
+
+
+--2 Procedure to DELETE a row from DepartmentMonthlyInformation
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_DeleteBy_YearTypeIDMonthTypeID
+	(
+		@YearTypeID int,
+		@MonthTypeID int
+	)
+AS
+	delete from [DepartmentMonthlyInformation] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from DepartmentMonthlyInformation
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_GetDetails
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@DepartmentID int
+	)
+AS
+	select * from [DepartmentMonthlyInformation] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID and DepartmentID = @DepartmentID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from DepartmentMonthlyInformation
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_GetDetailsBy_YearTypeIDMonthTypeID
+	(
+		@YearTypeID int,
+		@MonthTypeID int
+	)
+AS
+	select * from [DepartmentMonthlyInformation] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from DepartmentMonthlyInformation
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_GetListAll
+AS
+	select rTrim([YearTypeID]) as YearTypeID , rTrim([MonthTypeID]) as MonthTypeID , rTrim([DepartmentID]) as DepartmentID , rTrim([AdjutancyTypeID]) as AdjutancyTypeID , rTrim([Value1]) as Value1 , rTrim([OperationalReward_Average]) as OperationalReward_Average , rTrim([OperationalRewardAverage]) as OperationalRewardAverage , rTrim([Value2]) as Value2 , rTrim([OperationalScore]) as OperationalScore , rTrim([TotalParameter1]) as TotalParameter1 , rTrim([TotalParameter2]) as TotalParameter2 , rTrim([TotalParameter3]) as TotalParameter3 , rTrim([TotalBossFactor]) as TotalBossFactor , rTrim([TotalReward_]) as TotalReward_ , rTrim([OrganizationalReward_]) as OrganizationalReward_ , rTrim([OperationalReward_]) as OperationalReward_ , rTrim([TotalReward_Average]) as TotalReward_Average , rTrim([YearTypeIDTitle]) as YearTypeIDTitle , rTrim([MonthTypeIDTitle]) as MonthTypeIDTitle , rTrim([DepartmentIDTitle]) as DepartmentIDTitle , rTrim([RewardPerEmployee]) as RewardPerEmployee , rTrim([OperationalRewardCalculated]) as OperationalRewardCalculated , rTrim([OperationalReward]) as OperationalReward , rTrim([OrganizationalRewardCalculated]) as OrganizationalRewardCalculated , rTrim([OrganizationalReward]) as OrganizationalReward , rTrim([MonthlyProceed]) as MonthlyProceed , rTrim([DesiredMonthlyProceed]) as DesiredMonthlyProceed , rTrim([LastYearProceed]) as LastYearProceed , rTrim([StatisticsFinalalization]) as StatisticsFinalalization , rTrim([AssistantRewardsFinalization]) as AssistantRewardsFinalization , rTrim([ManagerRewardsFinalization]) as ManagerRewardsFinalization , rTrim([IsOfficialRewardsFinalizedBoss]) as IsOfficialRewardsFinalizedBoss , rTrim([IsOfficialRewardsFinalizedAssistant]) as IsOfficialRewardsFinalizedAssistant , rTrim([IsOfficialRewardsFinalizedManager]) as IsOfficialRewardsFinalizedManager , rTrim([ContractualRewardsFinalization]) as ContractualRewardsFinalization , rTrim([IsContractualRewardsFinalizedBoss]) as IsContractualRewardsFinalizedBoss , rTrim([IsContractualRewardsFinalizedAssistant]) as IsContractualRewardsFinalizedAssistant , rTrim([IsContractualRewardsFinalizedManager]) as IsContractualRewardsFinalizedManager , rTrim([DossierNumber]) as DossierNumber , rTrim([Value3]) as Value3 , rTrim([Value4]) as Value4 , rTrim([Value5]) as Value5 , rTrim([Value6]) as Value6 , rTrim([EmployeeNumber]) as EmployeeNumber , rTrim([ContractualEmployeeNumber]) as ContractualEmployeeNumber  from [DepartmentMonthlyInformation]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of DepartmentMonthlyInformation
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_Update
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@DepartmentID int,
+		@RewardPerEmployee bigint,
+		@OperationalRewardCalculated bigint,
+		@OperationalReward bigint,
+		@OrganizationalRewardCalculated bigint,
+		@OrganizationalReward bigint,
+		@MonthlyProceed bigint,
+		@DesiredMonthlyProceed bigint,
+		@LastYearProceed bigint,
+		@StatisticsFinalalization bit,
+		@AssistantRewardsFinalization bit,
+		@ManagerRewardsFinalization bit,
+		@IsOfficialRewardsFinalizedBoss bit,
+		@IsOfficialRewardsFinalizedAssistant bit,
+		@IsOfficialRewardsFinalizedManager bit,
+		@ContractualRewardsFinalization bit,
+		@IsContractualRewardsFinalizedBoss bit,
+		@IsContractualRewardsFinalizedAssistant bit,
+		@IsContractualRewardsFinalizedManager bit,
+		@DossierNumber int,
+		@Value3 int,
+		@Value4 int,
+		@Value5 int,
+		@Value6 int,
+		@EmployeeNumber int,
+		@ContractualEmployeeNumber int
+	)
+AS
+	update [DepartmentMonthlyInformation]
+	set
+		[RewardPerEmployee] = @RewardPerEmployee,
+		[OperationalRewardCalculated] = @OperationalRewardCalculated,
+		[OperationalReward] = @OperationalReward,
+		[OrganizationalRewardCalculated] = @OrganizationalRewardCalculated,
+		[OrganizationalReward] = @OrganizationalReward,
+		[MonthlyProceed] = @MonthlyProceed,
+		[DesiredMonthlyProceed] = @DesiredMonthlyProceed,
+		[LastYearProceed] = @LastYearProceed,
+		[StatisticsFinalalization] = @StatisticsFinalalization,
+		[AssistantRewardsFinalization] = @AssistantRewardsFinalization,
+		[ManagerRewardsFinalization] = @ManagerRewardsFinalization,
+		[IsOfficialRewardsFinalizedBoss] = @IsOfficialRewardsFinalizedBoss,
+		[IsOfficialRewardsFinalizedAssistant] = @IsOfficialRewardsFinalizedAssistant,
+		[IsOfficialRewardsFinalizedManager] = @IsOfficialRewardsFinalizedManager,
+		[ContractualRewardsFinalization] = @ContractualRewardsFinalization,
+		[IsContractualRewardsFinalizedBoss] = @IsContractualRewardsFinalizedBoss,
+		[IsContractualRewardsFinalizedAssistant] = @IsContractualRewardsFinalizedAssistant,
+		[IsContractualRewardsFinalizedManager] = @IsContractualRewardsFinalizedManager,
+		[DossierNumber] = @DossierNumber,
+		[Value3] = @Value3,
+		[Value4] = @Value4,
+		[Value5] = @Value5,
+		[Value6] = @Value6,
+		[EmployeeNumber] = @EmployeeNumber,
+		[ContractualEmployeeNumber] = @ContractualEmployeeNumber
+	where
+		[YearTypeID] = @YearTypeID and [MonthTypeID] = @MonthTypeID and [DepartmentID] = @DepartmentID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a DepartmentMonthlyInformation record existance
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_Exists
+	(
+		@YearTypeID int,
+		@MonthTypeID int,
+		@DepartmentID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [DepartmentMonthlyInformation] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID and DepartmentID = @DepartmentID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from DepartmentMonthlyInformation using YearTypeID, MonthTypeID
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_GetListByYearTypeIDMonthTypeID
+	(
+		@YearTypeID int,
+		@MonthTypeID int
+	)
+AS
+	select * from [DepartmentMonthlyInformation] where YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID 
+	RETURN
+	GO
+
+
+
+--X Procedure to Search DepartmentMonthlyInformation
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_SearchLike
+	(
+		@YearTypeID int = null,
+		@MonthTypeID int = null,
+		@DepartmentID int = null,
+		@AdjutancyTypeID int = null,
+		@Value1 float = null,
+		@OperationalReward_Average float = null,
+		@OperationalRewardAverage float = null,
+		@Value2 decimal = null,
+		@OperationalScore decimal = null,
+		@TotalParameter1 decimal = null,
+		@TotalParameter2 decimal = null,
+		@TotalParameter3 decimal = null,
+		@TotalBossFactor decimal = null,
+		@TotalReward_ bigint = null,
+		@OrganizationalReward_ bigint = null,
+		@OperationalReward_ bigint = null,
+		@TotalReward_Average bigint = null,
+		@YearTypeIDTitle nvarchar(500) = null,
+		@MonthTypeIDTitle nvarchar(500) = null,
+		@DepartmentIDTitle nvarchar(500) = null,
+		@RewardPerEmployee bigint = null,
+		@OperationalRewardCalculated bigint = null,
+		@OperationalReward bigint = null,
+		@OrganizationalRewardCalculated bigint = null,
+		@OrganizationalReward bigint = null,
+		@MonthlyProceed bigint = null,
+		@DesiredMonthlyProceed bigint = null,
+		@LastYearProceed bigint = null,
+		@StatisticsFinalalization bit = null,
+		@AssistantRewardsFinalization bit = null,
+		@ManagerRewardsFinalization bit = null,
+		@IsOfficialRewardsFinalizedBoss bit = null,
+		@IsOfficialRewardsFinalizedAssistant bit = null,
+		@IsOfficialRewardsFinalizedManager bit = null,
+		@ContractualRewardsFinalization bit = null,
+		@IsContractualRewardsFinalizedBoss bit = null,
+		@IsContractualRewardsFinalizedAssistant bit = null,
+		@IsContractualRewardsFinalizedManager bit = null,
+		@DossierNumber int = null,
+		@Value3 int = null,
+		@Value4 int = null,
+		@Value5 int = null,
+		@Value6 int = null,
+		@EmployeeNumber int = null,
+		@ContractualEmployeeNumber int = null
+	)
+AS
+	SELECT * FROM [DepartmentMonthlyInformation] WHERE 
+
+
+	(@YearTypeID IS null OR @YearTypeID = 0 OR ([DepartmentMonthlyInformation].YearTypeID = @YearTypeID))
+	AND
+	(@MonthTypeID IS null OR @MonthTypeID = 0 OR ([DepartmentMonthlyInformation].MonthTypeID = @MonthTypeID))
+	AND
+	(@DepartmentID IS null OR @DepartmentID = 0 OR ([DepartmentMonthlyInformation].DepartmentID = @DepartmentID))
+	AND
+	(@AdjutancyTypeID IS null OR @AdjutancyTypeID = 0 OR ([DepartmentMonthlyInformation].AdjutancyTypeID = @AdjutancyTypeID))
+	AND
+	(@Value1 IS null OR @Value1 = 0 OR ([DepartmentMonthlyInformation].Value1 = @Value1))
+	AND
+	(@OperationalReward_Average IS null OR @OperationalReward_Average = 0 OR ([DepartmentMonthlyInformation].OperationalReward_Average = @OperationalReward_Average))
+	AND
+	(@OperationalRewardAverage IS null OR @OperationalRewardAverage = 0 OR ([DepartmentMonthlyInformation].OperationalRewardAverage = @OperationalRewardAverage))
+	AND
+	(@Value2 IS null OR @Value2 = 0 OR ([DepartmentMonthlyInformation].Value2 = @Value2))
+	AND
+	(@OperationalScore IS null OR @OperationalScore = 0 OR ([DepartmentMonthlyInformation].OperationalScore = @OperationalScore))
+	AND
+	(@TotalParameter1 IS null OR @TotalParameter1 = 0 OR ([DepartmentMonthlyInformation].TotalParameter1 = @TotalParameter1))
+	AND
+	(@TotalParameter2 IS null OR @TotalParameter2 = 0 OR ([DepartmentMonthlyInformation].TotalParameter2 = @TotalParameter2))
+	AND
+	(@TotalParameter3 IS null OR @TotalParameter3 = 0 OR ([DepartmentMonthlyInformation].TotalParameter3 = @TotalParameter3))
+	AND
+	(@TotalBossFactor IS null OR @TotalBossFactor = 0 OR ([DepartmentMonthlyInformation].TotalBossFactor = @TotalBossFactor))
+	AND
+	(@TotalReward_ IS null OR @TotalReward_ = 0 OR ([DepartmentMonthlyInformation].TotalReward_ = @TotalReward_))
+	AND
+	(@OrganizationalReward_ IS null OR @OrganizationalReward_ = 0 OR ([DepartmentMonthlyInformation].OrganizationalReward_ = @OrganizationalReward_))
+	AND
+	(@OperationalReward_ IS null OR @OperationalReward_ = 0 OR ([DepartmentMonthlyInformation].OperationalReward_ = @OperationalReward_))
+	AND
+	(@TotalReward_Average IS null OR @TotalReward_Average = 0 OR ([DepartmentMonthlyInformation].TotalReward_Average = @TotalReward_Average))
+	AND
+	(@YearTypeIDTitle IS null OR ([DepartmentMonthlyInformation].YearTypeIDTitle LIKE N'%' + @YearTypeIDTitle + '%'))
+	AND
+	(@MonthTypeIDTitle IS null OR ([DepartmentMonthlyInformation].MonthTypeIDTitle LIKE N'%' + @MonthTypeIDTitle + '%'))
+	AND
+	(@DepartmentIDTitle IS null OR ([DepartmentMonthlyInformation].DepartmentIDTitle LIKE N'%' + @DepartmentIDTitle + '%'))
+	AND
+	(@RewardPerEmployee IS null OR @RewardPerEmployee = 0 OR ([DepartmentMonthlyInformation].RewardPerEmployee = @RewardPerEmployee))
+	AND
+	(@OperationalRewardCalculated IS null OR @OperationalRewardCalculated = 0 OR ([DepartmentMonthlyInformation].OperationalRewardCalculated = @OperationalRewardCalculated))
+	AND
+	(@OperationalReward IS null OR @OperationalReward = 0 OR ([DepartmentMonthlyInformation].OperationalReward = @OperationalReward))
+	AND
+	(@OrganizationalRewardCalculated IS null OR @OrganizationalRewardCalculated = 0 OR ([DepartmentMonthlyInformation].OrganizationalRewardCalculated = @OrganizationalRewardCalculated))
+	AND
+	(@OrganizationalReward IS null OR @OrganizationalReward = 0 OR ([DepartmentMonthlyInformation].OrganizationalReward = @OrganizationalReward))
+	AND
+	(@MonthlyProceed IS null OR @MonthlyProceed = 0 OR ([DepartmentMonthlyInformation].MonthlyProceed = @MonthlyProceed))
+	AND
+	(@DesiredMonthlyProceed IS null OR @DesiredMonthlyProceed = 0 OR ([DepartmentMonthlyInformation].DesiredMonthlyProceed = @DesiredMonthlyProceed))
+	AND
+	(@LastYearProceed IS null OR @LastYearProceed = 0 OR ([DepartmentMonthlyInformation].LastYearProceed = @LastYearProceed))
+	AND
+	(@StatisticsFinalalization IS null OR @StatisticsFinalalization = 0 OR ([DepartmentMonthlyInformation].StatisticsFinalalization = @StatisticsFinalalization))
+	AND
+	(@AssistantRewardsFinalization IS null OR @AssistantRewardsFinalization = 0 OR ([DepartmentMonthlyInformation].AssistantRewardsFinalization = @AssistantRewardsFinalization))
+	AND
+	(@ManagerRewardsFinalization IS null OR @ManagerRewardsFinalization = 0 OR ([DepartmentMonthlyInformation].ManagerRewardsFinalization = @ManagerRewardsFinalization))
+	AND
+	(@IsOfficialRewardsFinalizedBoss IS null OR @IsOfficialRewardsFinalizedBoss = 0 OR ([DepartmentMonthlyInformation].IsOfficialRewardsFinalizedBoss = @IsOfficialRewardsFinalizedBoss))
+	AND
+	(@IsOfficialRewardsFinalizedAssistant IS null OR @IsOfficialRewardsFinalizedAssistant = 0 OR ([DepartmentMonthlyInformation].IsOfficialRewardsFinalizedAssistant = @IsOfficialRewardsFinalizedAssistant))
+	AND
+	(@IsOfficialRewardsFinalizedManager IS null OR @IsOfficialRewardsFinalizedManager = 0 OR ([DepartmentMonthlyInformation].IsOfficialRewardsFinalizedManager = @IsOfficialRewardsFinalizedManager))
+	AND
+	(@ContractualRewardsFinalization IS null OR @ContractualRewardsFinalization = 0 OR ([DepartmentMonthlyInformation].ContractualRewardsFinalization = @ContractualRewardsFinalization))
+	AND
+	(@IsContractualRewardsFinalizedBoss IS null OR @IsContractualRewardsFinalizedBoss = 0 OR ([DepartmentMonthlyInformation].IsContractualRewardsFinalizedBoss = @IsContractualRewardsFinalizedBoss))
+	AND
+	(@IsContractualRewardsFinalizedAssistant IS null OR @IsContractualRewardsFinalizedAssistant = 0 OR ([DepartmentMonthlyInformation].IsContractualRewardsFinalizedAssistant = @IsContractualRewardsFinalizedAssistant))
+	AND
+	(@IsContractualRewardsFinalizedManager IS null OR @IsContractualRewardsFinalizedManager = 0 OR ([DepartmentMonthlyInformation].IsContractualRewardsFinalizedManager = @IsContractualRewardsFinalizedManager))
+	AND
+	(@DossierNumber IS null OR @DossierNumber = 0 OR ([DepartmentMonthlyInformation].DossierNumber = @DossierNumber))
+	AND
+	(@Value3 IS null OR @Value3 = 0 OR ([DepartmentMonthlyInformation].Value3 = @Value3))
+	AND
+	(@Value4 IS null OR @Value4 = 0 OR ([DepartmentMonthlyInformation].Value4 = @Value4))
+	AND
+	(@Value5 IS null OR @Value5 = 0 OR ([DepartmentMonthlyInformation].Value5 = @Value5))
+	AND
+	(@Value6 IS null OR @Value6 = 0 OR ([DepartmentMonthlyInformation].Value6 = @Value6))
+	AND
+	(@EmployeeNumber IS null OR @EmployeeNumber = 0 OR ([DepartmentMonthlyInformation].EmployeeNumber = @EmployeeNumber))
+	AND
+	(@ContractualEmployeeNumber IS null OR @ContractualEmployeeNumber = 0 OR ([DepartmentMonthlyInformation].ContractualEmployeeNumber = @ContractualEmployeeNumber))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into Employee
+CREATE PROCEDURE dbo.Employee_Insert
+	(
+		@NationalCode bigint,
+		@Password nvarchar(100),
+		@PersonalCode nvarchar(200),
+		@LastPassChangeDate nchar(20),
+		@FirstName nvarchar(100),
+		@LastName nvarchar(200),
+		@AccountNumber nvarchar(100),
+		@ContractTypeID int,
+		@RoleTypeID int,
+		@DepartmentID int,
+		@IsActiveEmployee bit,
+		@IsActiveUser bit
+	)
+AS
+	insert into [Employee]
+	( [NationalCode] , [Password] , [PersonalCode] , [LastPassChangeDate] , [FirstName] , [LastName] , [AccountNumber] , [ContractTypeID] , [RoleTypeID] , [DepartmentID] , [IsActiveEmployee] , [IsActiveUser] )
+	values
+	( @NationalCode , @Password , @PersonalCode , @LastPassChangeDate , @FirstName , @LastName , @AccountNumber , @ContractTypeID , @RoleTypeID , @DepartmentID , @IsActiveEmployee , @IsActiveUser )
+	SELECT @NationalCode
+	GO
+
+
+
+--2 Procedure to DELETE a row from Employee
+CREATE PROCEDURE dbo.Employee_Delete
+	(
+		@NationalCode bigint
+	)
+AS
+	delete from [Employee] where NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from Employee
+CREATE PROCEDURE dbo.Employee_GetDetails
+	(
+		@NationalCode bigint
+	)
+AS
+	select * from [Employee] where NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from Employee
+CREATE PROCEDURE dbo.Employee_GetListAll
+AS
+	select rTrim([NationalCode]) as NationalCode , rTrim([RoleTypeIDTitle]) as RoleTypeIDTitle , rTrim([FullName]) as FullName , rTrim([DepartmentIDTitle]) as DepartmentIDTitle , rTrim([ContractTypeIDTitle]) as ContractTypeIDTitle , rTrim([RoleTypeIDFactor]) as RoleTypeIDFactor , rTrim([Password]) as Password , rTrim([PersonalCode]) as PersonalCode , rTrim([LastPassChangeDate]) as LastPassChangeDate , rTrim([FirstName]) as FirstName , rTrim([LastName]) as LastName , rTrim([AccountNumber]) as AccountNumber , rTrim([ContractTypeID]) as ContractTypeID , rTrim([RoleTypeID]) as RoleTypeID , rTrim([DepartmentID]) as DepartmentID , rTrim([IsActiveEmployee]) as IsActiveEmployee , rTrim([IsActiveUser]) as IsActiveUser  from [Employee]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of Employee
+CREATE PROCEDURE dbo.Employee_Update
+	(
+		@NationalCode bigint,
+		@Password nvarchar(100),
+		@PersonalCode nvarchar(200),
+		@LastPassChangeDate nchar(20),
+		@FirstName nvarchar(100),
+		@LastName nvarchar(200),
+		@AccountNumber nvarchar(100),
+		@ContractTypeID int,
+		@RoleTypeID int,
+		@DepartmentID int,
+		@IsActiveEmployee bit,
+		@IsActiveUser bit
+	)
+AS
+	update [Employee]
+	set
+		[Password] = @Password,
+		[PersonalCode] = @PersonalCode,
+		[LastPassChangeDate] = @LastPassChangeDate,
+		[FirstName] = @FirstName,
+		[LastName] = @LastName,
+		[AccountNumber] = @AccountNumber,
+		[ContractTypeID] = @ContractTypeID,
+		[RoleTypeID] = @RoleTypeID,
+		[DepartmentID] = @DepartmentID,
+		[IsActiveEmployee] = @IsActiveEmployee,
+		[IsActiveUser] = @IsActiveUser
+	where
+		[NationalCode] = @NationalCode
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a Employee record existance
+CREATE PROCEDURE dbo.Employee_Exists
+	(
+		@NationalCode bigint
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [Employee] where NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--X Procedure to Search Employee
+CREATE PROCEDURE dbo.Employee_SearchLike
+	(
+		@NationalCode bigint = null,
+		@RoleTypeIDTitle nvarchar(500) = null,
+		@FullName nvarchar(301) = null,
+		@DepartmentIDTitle nvarchar(500) = null,
+		@ContractTypeIDTitle nvarchar(500) = null,
+		@RoleTypeIDFactor decimal = null,
+		@Password nvarchar(100) = null,
+		@PersonalCode nvarchar(200) = null,
+		@LastPassChangeDate nchar(20) = null,
+		@FirstName nvarchar(100) = null,
+		@LastName nvarchar(200) = null,
+		@AccountNumber nvarchar(100) = null,
+		@ContractTypeID int = null,
+		@RoleTypeID int = null,
+		@DepartmentID int = null,
+		@IsActiveEmployee bit = null,
+		@IsActiveUser bit = null
+	)
+AS
+	SELECT * FROM [Employee] WHERE 
+
+
+	(@NationalCode IS null OR @NationalCode = 0 OR ([Employee].NationalCode = @NationalCode))
+	AND
+	(@RoleTypeIDTitle IS null OR ([Employee].RoleTypeIDTitle LIKE N'%' + @RoleTypeIDTitle + '%'))
+	AND
+	(@FullName IS null OR ([Employee].FullName LIKE N'%' + @FullName + '%'))
+	AND
+	(@DepartmentIDTitle IS null OR ([Employee].DepartmentIDTitle LIKE N'%' + @DepartmentIDTitle + '%'))
+	AND
+	(@ContractTypeIDTitle IS null OR ([Employee].ContractTypeIDTitle LIKE N'%' + @ContractTypeIDTitle + '%'))
+	AND
+	(@RoleTypeIDFactor IS null OR @RoleTypeIDFactor = 0 OR ([Employee].RoleTypeIDFactor = @RoleTypeIDFactor))
+	AND
+	(@Password IS null OR ([Employee].Password LIKE N'%' + @Password + '%'))
+	AND
+	(@PersonalCode IS null OR ([Employee].PersonalCode LIKE N'%' + @PersonalCode + '%'))
+	AND
+	(@LastPassChangeDate IS null OR ([Employee].LastPassChangeDate LIKE '%' + @LastPassChangeDate + '%'))
+	AND
+	(@FirstName IS null OR ([Employee].FirstName LIKE N'%' + @FirstName + '%'))
+	AND
+	(@LastName IS null OR ([Employee].LastName LIKE N'%' + @LastName + '%'))
+	AND
+	(@AccountNumber IS null OR ([Employee].AccountNumber LIKE N'%' + @AccountNumber + '%'))
+	AND
+	(@ContractTypeID IS null OR @ContractTypeID = 0 OR ([Employee].ContractTypeID = @ContractTypeID))
+	AND
+	(@RoleTypeID IS null OR @RoleTypeID = 0 OR ([Employee].RoleTypeID = @RoleTypeID))
+	AND
+	(@DepartmentID IS null OR @DepartmentID = 0 OR ([Employee].DepartmentID = @DepartmentID))
+	AND
+	(@IsActiveEmployee IS null OR @IsActiveEmployee = 0 OR ([Employee].IsActiveEmployee = @IsActiveEmployee))
+	AND
+	(@IsActiveUser IS null OR @IsActiveUser = 0 OR ([Employee].IsActiveUser = @IsActiveUser))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into EmployeeUserType
+CREATE PROCEDURE dbo.EmployeeUserType_Insert
+	(
+		@UserTypeID int,
+		@NationalCode bigint
+	)
+AS
+	insert into [EmployeeUserType]
+	( [UserTypeID] , [NationalCode] )
+	values
+	( @UserTypeID , @NationalCode )
+	SELECT @UserTypeID
+	GO
+
+
+
+--2 Procedure to DELETE a row from EmployeeUserType
+CREATE PROCEDURE dbo.EmployeeUserType_Delete
+	(
+		@UserTypeID int,
+		@NationalCode bigint
+	)
+AS
+	delete from [EmployeeUserType] where UserTypeID = @UserTypeID and NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from EmployeeUserType
+CREATE PROCEDURE dbo.EmployeeUserType_GetDetails
+	(
+		@UserTypeID int,
+		@NationalCode bigint
+	)
+AS
+	select * from [EmployeeUserType] where UserTypeID = @UserTypeID and NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from EmployeeUserType
+CREATE PROCEDURE dbo.EmployeeUserType_GetListAll
+AS
+	select rTrim([UserTypeID]) as UserTypeID , rTrim([NationalCode]) as NationalCode , rTrim([EmployeeFullName]) as EmployeeFullName , rTrim([UserTypeIDTitle]) as UserTypeIDTitle  from [EmployeeUserType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of EmployeeUserType
+CREATE PROCEDURE dbo.EmployeeUserType_Update
+	(
+		@UserTypeID int,
+		@NationalCode bigint
+	)
+AS
+	update [EmployeeUserType]
+	se
+	where
+		[UserTypeID] = @UserTypeID and [NationalCode] = @NationalCode
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a EmployeeUserType record existance
+CREATE PROCEDURE dbo.EmployeeUserType_Exists
+	(
+		@UserTypeID int,
+		@NationalCode bigint
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [EmployeeUserType] where UserTypeID = @UserTypeID and NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--X Procedure to Search EmployeeUserType
+CREATE PROCEDURE dbo.EmployeeUserType_SearchLike
+	(
+		@UserTypeID int = null,
+		@NationalCode bigint = null,
+		@EmployeeFullName nvarchar(500) = null,
+		@UserTypeIDTitle nvarchar(500) = null
+	)
+AS
+	SELECT * FROM [EmployeeUserType] WHERE 
+
+
+	(@UserTypeID IS null OR @UserTypeID = 0 OR ([EmployeeUserType].UserTypeID = @UserTypeID))
+	AND
+	(@NationalCode IS null OR @NationalCode = 0 OR ([EmployeeUserType].NationalCode = @NationalCode))
+	AND
+	(@EmployeeFullName IS null OR ([EmployeeUserType].EmployeeFullName LIKE N'%' + @EmployeeFullName + '%'))
+	AND
+	(@UserTypeIDTitle IS null OR ([EmployeeUserType].UserTypeIDTitle LIKE N'%' + @UserTypeIDTitle + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into MainOfficeType
+CREATE PROCEDURE dbo.MainOfficeType_Insert
+	(
+		@Title nvarchar(100),
+		@TotalScore decimal(24,6),
+		@TotalScoreCat1 decimal(24,6),
+		@TotalScoreCat2 decimal(24,6)
+	)
+AS
+	insert into [MainOfficeType]
+	( [Title] , [TotalScore] , [TotalScoreCat1] , [TotalScoreCat2] )
+	values
+	( @Title , @TotalScore , @TotalScoreCat1 , @TotalScoreCat2 )
+	SELECT @@IDENTITY
+	GO
+
+
+
+--2 Procedure to DELETE a row from MainOfficeType
+CREATE PROCEDURE dbo.MainOfficeType_Delete
+	(
+		@MainOfficeTypeID int
+	)
+AS
+	delete from [MainOfficeType] where MainOfficeTypeID = @MainOfficeTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from MainOfficeType
+CREATE PROCEDURE dbo.MainOfficeType_GetDetails
+	(
+		@MainOfficeTypeID int
+	)
+AS
+	select * from [MainOfficeType] where MainOfficeTypeID = @MainOfficeTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from MainOfficeType
+CREATE PROCEDURE dbo.MainOfficeType_GetListAll
+AS
+	select rTrim([MainOfficeTypeID]) as MainOfficeTypeID , rTrim([ContractualEmployeesNumber]) as ContractualEmployeesNumber , rTrim([Title]) as Title , rTrim([TotalScore]) as TotalScore , rTrim([TotalScoreCat1]) as TotalScoreCat1 , rTrim([TotalScoreCat2]) as TotalScoreCat2  from [MainOfficeType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of MainOfficeType
+CREATE PROCEDURE dbo.MainOfficeType_Update
+	(
+		@MainOfficeTypeID int,
+		@Title nvarchar(100),
+		@TotalScore decimal(24,6),
+		@TotalScoreCat1 decimal(24,6),
+		@TotalScoreCat2 decimal(24,6)
+	)
+AS
+	update [MainOfficeType]
+	set
+		[Title] = @Title,
+		[TotalScore] = @TotalScore,
+		[TotalScoreCat1] = @TotalScoreCat1,
+		[TotalScoreCat2] = @TotalScoreCat2
+	where
+		[MainOfficeTypeID] = @MainOfficeTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a MainOfficeType record existance
+CREATE PROCEDURE dbo.MainOfficeType_Exists
+	(
+		@MainOfficeTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [MainOfficeType] where MainOfficeTypeID = @MainOfficeTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search MainOfficeType
+CREATE PROCEDURE dbo.MainOfficeType_SearchLike
+	(
+		@MainOfficeTypeID int = null,
+		@ContractualEmployeesNumber bigint = null,
+		@Title nvarchar(100) = null,
+		@TotalScore decimal = null,
+		@TotalScoreCat1 decimal = null,
+		@TotalScoreCat2 decimal = null
+	)
+AS
+	SELECT * FROM [MainOfficeType] WHERE 
+
+
+	(@MainOfficeTypeID IS null OR @MainOfficeTypeID = 0 OR ([MainOfficeType].MainOfficeTypeID = @MainOfficeTypeID))
+	AND
+	(@ContractualEmployeesNumber IS null OR @ContractualEmployeesNumber = 0 OR ([MainOfficeType].ContractualEmployeesNumber = @ContractualEmployeesNumber))
+	AND
+	(@Title IS null OR ([MainOfficeType].Title LIKE N'%' + @Title + '%'))
+	AND
+	(@TotalScore IS null OR @TotalScore = 0 OR ([MainOfficeType].TotalScore = @TotalScore))
+	AND
+	(@TotalScoreCat1 IS null OR @TotalScoreCat1 = 0 OR ([MainOfficeType].TotalScoreCat1 = @TotalScoreCat1))
+	AND
+	(@TotalScoreCat2 IS null OR @TotalScoreCat2 = 0 OR ([MainOfficeType].TotalScoreCat2 = @TotalScoreCat2))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into MonthType
+CREATE PROCEDURE dbo.MonthType_Insert
+	(
+		@Title nvarchar(40)
+	)
+AS
+	insert into [MonthType]
+	( [Title] )
+	values
+	( @Title )
+	SELECT @@IDENTITY
+	GO
+
+
+
+--2 Procedure to DELETE a row from MonthType
+CREATE PROCEDURE dbo.MonthType_Delete
+	(
+		@MonthTypeID int
+	)
+AS
+	delete from [MonthType] where MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from MonthType
+CREATE PROCEDURE dbo.MonthType_GetDetails
+	(
+		@MonthTypeID int
+	)
+AS
+	select * from [MonthType] where MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from MonthType
+CREATE PROCEDURE dbo.MonthType_GetListAll
+AS
+	select rTrim([MonthTypeID]) as MonthTypeID , rTrim([Title]) as Title  from [MonthType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of MonthType
+CREATE PROCEDURE dbo.MonthType_Update
+	(
+		@MonthTypeID int,
+		@Title nvarchar(40)
+	)
+AS
+	update [MonthType]
+	set
+		[Title] = @Title
+	where
+		[MonthTypeID] = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a MonthType record existance
+CREATE PROCEDURE dbo.MonthType_Exists
+	(
+		@MonthTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [MonthType] where MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search MonthType
+CREATE PROCEDURE dbo.MonthType_SearchLike
+	(
+		@MonthTypeID int = null,
+		@Title nvarchar(40) = null
+	)
+AS
+	SELECT * FROM [MonthType] WHERE 
+
+
+	(@MonthTypeID IS null OR @MonthTypeID = 0 OR ([MonthType].MonthTypeID = @MonthTypeID))
+	AND
+	(@Title IS null OR ([MonthType].Title LIKE N'%' + @Title + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into OfficialEmployeeReward
+CREATE PROCEDURE dbo.OfficialEmployeeReward_Insert
+	(
+		@NationalCode bigint,
+		@YearTypeID int,
+		@MonthTypeID int,
+		@BossFactor decimal(24,6),
+		@Reward bigint,
+		@BossFinalValue bigint,
+		@AssistantFinalValue bigint,
+		@ManagerFinalValue bigint,
+		@ExtraReward1 bigint,
+		@ExtraReward2 bigint,
+		@ExtraReward3 bigint,
+		@RoleTypeID int,
+		@Parameter1 int,
+		@Parameter2 int,
+		@Parameter3 int
+	)
+AS
+	insert into [OfficialEmployeeReward]
+	( [NationalCode] , [YearTypeID] , [MonthTypeID] , [BossFactor] , [Reward] , [BossFinalValue] , [AssistantFinalValue] , [ManagerFinalValue] , [ExtraReward1] , [ExtraReward2] , [ExtraReward3] , [RoleTypeID] , [Parameter1] , [Parameter2] , [Parameter3] )
+	values
+	( @NationalCode , @YearTypeID , @MonthTypeID , @BossFactor , @Reward , @BossFinalValue , @AssistantFinalValue , @ManagerFinalValue , @ExtraReward1 , @ExtraReward2 , @ExtraReward3 , @RoleTypeID , @Parameter1 , @Parameter2 , @Parameter3 )
+	SELECT @NationalCode
+	GO
+
+
+
+--2 Procedure to DELETE a row from OfficialEmployeeReward
+CREATE PROCEDURE dbo.OfficialEmployeeReward_Delete
+	(
+		@NationalCode bigint,
+		@YearTypeID int,
+		@MonthTypeID int
+	)
+AS
+	delete from [OfficialEmployeeReward] where NationalCode = @NationalCode and YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from OfficialEmployeeReward
+CREATE PROCEDURE dbo.OfficialEmployeeReward_GetDetails
+	(
+		@NationalCode bigint,
+		@YearTypeID int,
+		@MonthTypeID int
+	)
+AS
+	select * from [OfficialEmployeeReward] where NationalCode = @NationalCode and YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from OfficialEmployeeReward
+CREATE PROCEDURE dbo.OfficialEmployeeReward_GetListAll
+AS
+	select rTrim([NationalCode]) as NationalCode , rTrim([YearTypeID]) as YearTypeID , rTrim([MonthTypeID]) as MonthTypeID , rTrim([EmployeeFullName]) as EmployeeFullName , rTrim([DepartmentIDTitle]) as DepartmentIDTitle , rTrim([YearTypeIDTitle]) as YearTypeIDTitle , rTrim([MonthTypeIDTitle]) as MonthTypeIDTitle , rTrim([RoleTypeIDTitle]) as RoleTypeIDTitle , rTrim([TotalReward]) as TotalReward , rTrim([Reward_]) as Reward_ , rTrim([RoleTypeIDFactor]) as RoleTypeIDFactor , rTrim([BossFactor]) as BossFactor , rTrim([Reward]) as Reward , rTrim([BossFinalValue]) as BossFinalValue , rTrim([AssistantFinalValue]) as AssistantFinalValue , rTrim([ManagerFinalValue]) as ManagerFinalValue , rTrim([ExtraReward1]) as ExtraReward1 , rTrim([ExtraReward2]) as ExtraReward2 , rTrim([ExtraReward3]) as ExtraReward3 , rTrim([RoleTypeID]) as RoleTypeID , rTrim([Parameter1]) as Parameter1 , rTrim([Parameter2]) as Parameter2 , rTrim([Parameter3]) as Parameter3  from [OfficialEmployeeReward]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of OfficialEmployeeReward
+CREATE PROCEDURE dbo.OfficialEmployeeReward_Update
+	(
+		@NationalCode bigint,
+		@YearTypeID int,
+		@MonthTypeID int,
+		@BossFactor decimal(24,6),
+		@Reward bigint,
+		@BossFinalValue bigint,
+		@AssistantFinalValue bigint,
+		@ManagerFinalValue bigint,
+		@ExtraReward1 bigint,
+		@ExtraReward2 bigint,
+		@ExtraReward3 bigint,
+		@RoleTypeID int,
+		@Parameter1 int,
+		@Parameter2 int,
+		@Parameter3 int
+	)
+AS
+	update [OfficialEmployeeReward]
+	set
+		[BossFactor] = @BossFactor,
+		[Reward] = @Reward,
+		[BossFinalValue] = @BossFinalValue,
+		[AssistantFinalValue] = @AssistantFinalValue,
+		[ManagerFinalValue] = @ManagerFinalValue,
+		[ExtraReward1] = @ExtraReward1,
+		[ExtraReward2] = @ExtraReward2,
+		[ExtraReward3] = @ExtraReward3,
+		[RoleTypeID] = @RoleTypeID,
+		[Parameter1] = @Parameter1,
+		[Parameter2] = @Parameter2,
+		[Parameter3] = @Parameter3
+	where
+		[NationalCode] = @NationalCode and [YearTypeID] = @YearTypeID and [MonthTypeID] = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a OfficialEmployeeReward record existance
+CREATE PROCEDURE dbo.OfficialEmployeeReward_Exists
+	(
+		@NationalCode bigint,
+		@YearTypeID int,
+		@MonthTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [OfficialEmployeeReward] where NationalCode = @NationalCode and YearTypeID = @YearTypeID and MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search OfficialEmployeeReward
+CREATE PROCEDURE dbo.OfficialEmployeeReward_SearchLike
+	(
+		@NationalCode bigint = null,
+		@YearTypeID int = null,
+		@MonthTypeID int = null,
+		@EmployeeFullName nvarchar(500) = null,
+		@DepartmentIDTitle nvarchar(500) = null,
+		@YearTypeIDTitle nvarchar(500) = null,
+		@MonthTypeIDTitle nvarchar(500) = null,
+		@RoleTypeIDTitle nvarchar(500) = null,
+		@TotalReward bigint = null,
+		@Reward_ bigint = null,
+		@RoleTypeIDFactor decimal = null,
+		@BossFactor decimal = null,
+		@Reward bigint = null,
+		@BossFinalValue bigint = null,
+		@AssistantFinalValue bigint = null,
+		@ManagerFinalValue bigint = null,
+		@ExtraReward1 bigint = null,
+		@ExtraReward2 bigint = null,
+		@ExtraReward3 bigint = null,
+		@RoleTypeID int = null,
+		@Parameter1 int = null,
+		@Parameter2 int = null,
+		@Parameter3 int = null
+	)
+AS
+	SELECT * FROM [OfficialEmployeeReward] WHERE 
+
+
+	(@NationalCode IS null OR @NationalCode = 0 OR ([OfficialEmployeeReward].NationalCode = @NationalCode))
+	AND
+	(@YearTypeID IS null OR @YearTypeID = 0 OR ([OfficialEmployeeReward].YearTypeID = @YearTypeID))
+	AND
+	(@MonthTypeID IS null OR @MonthTypeID = 0 OR ([OfficialEmployeeReward].MonthTypeID = @MonthTypeID))
+	AND
+	(@EmployeeFullName IS null OR ([OfficialEmployeeReward].EmployeeFullName LIKE N'%' + @EmployeeFullName + '%'))
+	AND
+	(@DepartmentIDTitle IS null OR ([OfficialEmployeeReward].DepartmentIDTitle LIKE N'%' + @DepartmentIDTitle + '%'))
+	AND
+	(@YearTypeIDTitle IS null OR ([OfficialEmployeeReward].YearTypeIDTitle LIKE N'%' + @YearTypeIDTitle + '%'))
+	AND
+	(@MonthTypeIDTitle IS null OR ([OfficialEmployeeReward].MonthTypeIDTitle LIKE N'%' + @MonthTypeIDTitle + '%'))
+	AND
+	(@RoleTypeIDTitle IS null OR ([OfficialEmployeeReward].RoleTypeIDTitle LIKE N'%' + @RoleTypeIDTitle + '%'))
+	AND
+	(@TotalReward IS null OR @TotalReward = 0 OR ([OfficialEmployeeReward].TotalReward = @TotalReward))
+	AND
+	(@Reward_ IS null OR @Reward_ = 0 OR ([OfficialEmployeeReward].Reward_ = @Reward_))
+	AND
+	(@RoleTypeIDFactor IS null OR @RoleTypeIDFactor = 0 OR ([OfficialEmployeeReward].RoleTypeIDFactor = @RoleTypeIDFactor))
+	AND
+	(@BossFactor IS null OR @BossFactor = 0 OR ([OfficialEmployeeReward].BossFactor = @BossFactor))
+	AND
+	(@Reward IS null OR @Reward = 0 OR ([OfficialEmployeeReward].Reward = @Reward))
+	AND
+	(@BossFinalValue IS null OR @BossFinalValue = 0 OR ([OfficialEmployeeReward].BossFinalValue = @BossFinalValue))
+	AND
+	(@AssistantFinalValue IS null OR @AssistantFinalValue = 0 OR ([OfficialEmployeeReward].AssistantFinalValue = @AssistantFinalValue))
+	AND
+	(@ManagerFinalValue IS null OR @ManagerFinalValue = 0 OR ([OfficialEmployeeReward].ManagerFinalValue = @ManagerFinalValue))
+	AND
+	(@ExtraReward1 IS null OR @ExtraReward1 = 0 OR ([OfficialEmployeeReward].ExtraReward1 = @ExtraReward1))
+	AND
+	(@ExtraReward2 IS null OR @ExtraReward2 = 0 OR ([OfficialEmployeeReward].ExtraReward2 = @ExtraReward2))
+	AND
+	(@ExtraReward3 IS null OR @ExtraReward3 = 0 OR ([OfficialEmployeeReward].ExtraReward3 = @ExtraReward3))
+	AND
+	(@RoleTypeID IS null OR @RoleTypeID = 0 OR ([OfficialEmployeeReward].RoleTypeID = @RoleTypeID))
+	AND
+	(@Parameter1 IS null OR @Parameter1 = 0 OR ([OfficialEmployeeReward].Parameter1 = @Parameter1))
+	AND
+	(@Parameter2 IS null OR @Parameter2 = 0 OR ([OfficialEmployeeReward].Parameter2 = @Parameter2))
+	AND
+	(@Parameter3 IS null OR @Parameter3 = 0 OR ([OfficialEmployeeReward].Parameter3 = @Parameter3))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into RoleType
+CREATE PROCEDURE dbo.RoleType_Insert
+	(
+		@Factor decimal(24,6),
+		@Title nvarchar(2000)
+	)
+AS
+	insert into [RoleType]
+	( [Factor] , [Title] )
+	values
+	( @Factor , @Title )
+	SELECT @@IDENTITY
+	GO
+
+
+
+--2 Procedure to DELETE a row from RoleType
+CREATE PROCEDURE dbo.RoleType_Delete
+	(
+		@RoleTypeID int
+	)
+AS
+	delete from [RoleType] where RoleTypeID = @RoleTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from RoleType
+CREATE PROCEDURE dbo.RoleType_GetDetails
+	(
+		@RoleTypeID int
+	)
+AS
+	select * from [RoleType] where RoleTypeID = @RoleTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from RoleType
+CREATE PROCEDURE dbo.RoleType_GetListAll
+AS
+	select rTrim([RoleTypeID]) as RoleTypeID , rTrim([Factor]) as Factor , rTrim([Title]) as Title  from [RoleType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of RoleType
+CREATE PROCEDURE dbo.RoleType_Update
+	(
+		@RoleTypeID int,
+		@Factor decimal(24,6),
+		@Title nvarchar(2000)
+	)
+AS
+	update [RoleType]
+	set
+		[Factor] = @Factor,
+		[Title] = @Title
+	where
+		[RoleTypeID] = @RoleTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a RoleType record existance
+CREATE PROCEDURE dbo.RoleType_Exists
+	(
+		@RoleTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [RoleType] where RoleTypeID = @RoleTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search RoleType
+CREATE PROCEDURE dbo.RoleType_SearchLike
+	(
+		@RoleTypeID int = null,
+		@Factor decimal = null,
+		@Title nvarchar(2000) = null
+	)
+AS
+	SELECT * FROM [RoleType] WHERE 
+
+
+	(@RoleTypeID IS null OR @RoleTypeID = 0 OR ([RoleType].RoleTypeID = @RoleTypeID))
+	AND
+	(@Factor IS null OR @Factor = 0 OR ([RoleType].Factor = @Factor))
+	AND
+	(@Title IS null OR ([RoleType].Title LIKE N'%' + @Title + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into UserType
+CREATE PROCEDURE dbo.UserType_Insert
+	(
+		@Title nvarchar(100)
+	)
+AS
+	insert into [UserType]
+	( [Title] )
+	values
+	( @Title )
+	SELECT @@IDENTITY
+	GO
+
+
+
+--2 Procedure to DELETE a row from UserType
+CREATE PROCEDURE dbo.UserType_Delete
+	(
+		@UserTypeID int
+	)
+AS
+	delete from [UserType] where UserTypeID = @UserTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from UserType
+CREATE PROCEDURE dbo.UserType_GetDetails
+	(
+		@UserTypeID int
+	)
+AS
+	select * from [UserType] where UserTypeID = @UserTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from UserType
+CREATE PROCEDURE dbo.UserType_GetListAll
+AS
+	select rTrim([UserTypeID]) as UserTypeID , rTrim([Title]) as Title  from [UserType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of UserType
+CREATE PROCEDURE dbo.UserType_Update
+	(
+		@UserTypeID int,
+		@Title nvarchar(100)
+	)
+AS
+	update [UserType]
+	set
+		[Title] = @Title
+	where
+		[UserTypeID] = @UserTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a UserType record existance
+CREATE PROCEDURE dbo.UserType_Exists
+	(
+		@UserTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [UserType] where UserTypeID = @UserTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search UserType
+CREATE PROCEDURE dbo.UserType_SearchLike
+	(
+		@UserTypeID int = null,
+		@Title nvarchar(100) = null
+	)
+AS
+	SELECT * FROM [UserType] WHERE 
+
+
+	(@UserTypeID IS null OR @UserTypeID = 0 OR ([UserType].UserTypeID = @UserTypeID))
+	AND
+	(@Title IS null OR ([UserType].Title LIKE N'%' + @Title + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--1 Procedure to INSERT a new row into YearType
+CREATE PROCEDURE dbo.YearType_Insert
+	(
+		@YearTypeID int,
+		@Title nvarchar(10)
+	)
+AS
+	insert into [YearType]
+	( [YearTypeID] , [Title] )
+	values
+	( @YearTypeID , @Title )
+	SELECT @YearTypeID
+	GO
+
+
+
+--2 Procedure to DELETE a row from YearType
+CREATE PROCEDURE dbo.YearType_Delete
+	(
+		@YearTypeID int
+	)
+AS
+	delete from [YearType] where YearTypeID = @YearTypeID
+	RETURN
+	GO
+
+
+
+--3 Procedure to GET a row details from YearType
+CREATE PROCEDURE dbo.YearType_GetDetails
+	(
+		@YearTypeID int
+	)
+AS
+	select * from [YearType] where YearTypeID = @YearTypeID
+	RETURN
+	GO
+
+
+
+--4 Procedure to GET all entire data from YearType
+CREATE PROCEDURE dbo.YearType_GetListAll
+AS
+	select rTrim([YearTypeID]) as YearTypeID , rTrim([Title]) as Title  from [YearType]
+	RETURN
+	GO
+
+
+
+--5 Procedure to UPDATE details of YearType
+CREATE PROCEDURE dbo.YearType_Update
+	(
+		@YearTypeID int,
+		@Title nvarchar(10)
+	)
+AS
+	update [YearType]
+	set
+		[Title] = @Title
+	where
+		[YearTypeID] = @YearTypeID
+	RETURN
+	GO
+
+
+
+--6 Procedure to check a YearType record existance
+CREATE PROCEDURE dbo.YearType_Exists
+	(
+		@YearTypeID int
+	)
+AS
+	select Result = CASE Count(*) WHEN 0 then 0 ELSE 1 end from [YearType] where YearTypeID = @YearTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to Search YearType
+CREATE PROCEDURE dbo.YearType_SearchLike
+	(
+		@YearTypeID int = null,
+		@Title nvarchar(10) = null
+	)
+AS
+	SELECT * FROM [YearType] WHERE 
+
+
+	(@YearTypeID IS null OR @YearTypeID = 0 OR ([YearType].YearTypeID = @YearTypeID))
+	AND
+	(@Title IS null OR ([YearType].Title LIKE N'%' + @Title + '%'))
+	
+
+
+	RETURN
+	GO
+
+
+
+--X Procedure to GET OfficialEmployeeReward list of a MainOfficeType
+CREATE PROCEDURE dbo.MainOfficeType_GetList_OfficialEmployeeReward
+	(
+		@MainOfficeTypeID int
+	)
+AS
+SET NOCOUNT ON
+SELECT [OfficialEmployeeReward].NationalCode, [OfficialEmployeeReward].YearTypeID, [OfficialEmployeeReward].MonthTypeID, [OfficialEmployeeReward].EmployeeFullName, [OfficialEmployeeReward].DepartmentIDTitle, [OfficialEmployeeReward].YearTypeIDTitle, [OfficialEmployeeReward].MonthTypeIDTitle, [OfficialEmployeeReward].RoleTypeIDTitle, [OfficialEmployeeReward].TotalReward, [OfficialEmployeeReward].Reward_, [OfficialEmployeeReward].RoleTypeIDFactor, [OfficialEmployeeReward].BossFactor, [OfficialEmployeeReward].Reward, [OfficialEmployeeReward].BossFinalValue, [OfficialEmployeeReward].AssistantFinalValue, [OfficialEmployeeReward].ManagerFinalValue, [OfficialEmployeeReward].ExtraReward1, [OfficialEmployeeReward].ExtraReward2, [OfficialEmployeeReward].ExtraReward3, [OfficialEmployeeReward].RoleTypeID, [OfficialEmployeeReward].Parameter1, [OfficialEmployeeReward].Parameter2, [OfficialEmployeeReward].Parameter3
+FROM [MainOfficeType]
+	Inner Join [Department] on [MainOfficeType].MainOfficeTypeID = [Department].MainOfficeTypeID
+	Inner Join [Employee] on [Department].DepartmentID = [Employee].DepartmentID
+	Inner Join [OfficialEmployeeReward] on [Employee].NationalCode = [OfficialEmployeeReward].NationalCode
+WHERE [MainOfficeType].MainOfficeTypeID = @MainOfficeTypeID 
+	RETURN
+	GO
+
+
+
+--X Procedure to GET OfficialEmployeeReward list of a Department
+CREATE PROCEDURE dbo.Department_GetList_OfficialEmployeeReward
+	(
+		@DepartmentID int
+	)
+AS
+SET NOCOUNT ON
+SELECT [OfficialEmployeeReward].NationalCode, [OfficialEmployeeReward].YearTypeID, [OfficialEmployeeReward].MonthTypeID, [OfficialEmployeeReward].EmployeeFullName, [OfficialEmployeeReward].DepartmentIDTitle, [OfficialEmployeeReward].YearTypeIDTitle, [OfficialEmployeeReward].MonthTypeIDTitle, [OfficialEmployeeReward].RoleTypeIDTitle, [OfficialEmployeeReward].TotalReward, [OfficialEmployeeReward].Reward_, [OfficialEmployeeReward].RoleTypeIDFactor, [OfficialEmployeeReward].BossFactor, [OfficialEmployeeReward].Reward, [OfficialEmployeeReward].BossFinalValue, [OfficialEmployeeReward].AssistantFinalValue, [OfficialEmployeeReward].ManagerFinalValue, [OfficialEmployeeReward].ExtraReward1, [OfficialEmployeeReward].ExtraReward2, [OfficialEmployeeReward].ExtraReward3, [OfficialEmployeeReward].RoleTypeID, [OfficialEmployeeReward].Parameter1, [OfficialEmployeeReward].Parameter2, [OfficialEmployeeReward].Parameter3
+FROM [Department]
+	Inner Join [Employee] on [Department].DepartmentID = [Employee].DepartmentID
+	Inner Join [OfficialEmployeeReward] on [Employee].NationalCode = [OfficialEmployeeReward].NationalCode
+WHERE [Department].DepartmentID = @DepartmentID 
+	RETURN
+	GO
+
+
+
+--X Procedure to GET ContractualEmployeeReward list of a Department
+CREATE PROCEDURE dbo.Department_GetList_ContractualEmployeeReward
+	(
+		@DepartmentID int
+	)
+AS
+SET NOCOUNT ON
+SELECT [ContractualEmployeeReward].YearTypeID, [ContractualEmployeeReward].MonthTypeID, [ContractualEmployeeReward].NationalCode, [ContractualEmployeeReward].TotalReward, [ContractualEmployeeReward].Reward_, [ContractualEmployeeReward].EmployeeFullName, [ContractualEmployeeReward].DepartmentIDTitle, [ContractualEmployeeReward].YearTypeIDTitle, [ContractualEmployeeReward].MonthTypeIDTitle, [ContractualEmployeeReward].Reward, [ContractualEmployeeReward].BossFinalValue, [ContractualEmployeeReward].AssistantFinalValue, [ContractualEmployeeReward].ManagerFinalValue, [ContractualEmployeeReward].ExtraReward1, [ContractualEmployeeReward].ExtraReward2, [ContractualEmployeeReward].ExtraReward3
+FROM [Department]
+	Inner Join [Employee] on [Department].DepartmentID = [Employee].DepartmentID
+	Inner Join [ContractualEmployeeReward] on [Employee].NationalCode = [ContractualEmployeeReward].NationalCode
+WHERE [Department].DepartmentID = @DepartmentID 
+	RETURN
+	GO
+
+
+
+--X Procedure to GET ContractualEmployeeReward list of a MainOfficeType
+CREATE PROCEDURE dbo.MainOfficeType_GetList_ContractualEmployeeReward
+	(
+		@MainOfficeTypeID int
+	)
+AS
+SET NOCOUNT ON
+SELECT [ContractualEmployeeReward].YearTypeID, [ContractualEmployeeReward].MonthTypeID, [ContractualEmployeeReward].NationalCode, [ContractualEmployeeReward].TotalReward, [ContractualEmployeeReward].Reward_, [ContractualEmployeeReward].EmployeeFullName, [ContractualEmployeeReward].DepartmentIDTitle, [ContractualEmployeeReward].YearTypeIDTitle, [ContractualEmployeeReward].MonthTypeIDTitle, [ContractualEmployeeReward].Reward, [ContractualEmployeeReward].BossFinalValue, [ContractualEmployeeReward].AssistantFinalValue, [ContractualEmployeeReward].ManagerFinalValue, [ContractualEmployeeReward].ExtraReward1, [ContractualEmployeeReward].ExtraReward2, [ContractualEmployeeReward].ExtraReward3
+FROM [MainOfficeType]
+	Inner Join [Department] on [MainOfficeType].MainOfficeTypeID = [Department].MainOfficeTypeID
+	Inner Join [Employee] on [Department].DepartmentID = [Employee].DepartmentID
+	Inner Join [ContractualEmployeeReward] on [Employee].NationalCode = [ContractualEmployeeReward].NationalCode
+WHERE [MainOfficeType].MainOfficeTypeID = @MainOfficeTypeID 
+	RETURN
+	GO
+
+
+
+--X Procedure to GET DepartmentMonthlyInformation list of a AdjutancyType
+CREATE PROCEDURE dbo.AdjutancyType_GetList_DepartmentMonthlyInformation
+	(
+		@AdjutancyTypeID int
+	)
+AS
+SET NOCOUNT ON
+SELECT [DepartmentMonthlyInformation].YearTypeID, [DepartmentMonthlyInformation].MonthTypeID, [DepartmentMonthlyInformation].DepartmentID, [DepartmentMonthlyInformation].AdjutancyTypeID, [DepartmentMonthlyInformation].Value1, [DepartmentMonthlyInformation].OperationalReward_Average, [DepartmentMonthlyInformation].OperationalRewardAverage, [DepartmentMonthlyInformation].Value2, [DepartmentMonthlyInformation].OperationalScore, [DepartmentMonthlyInformation].TotalParameter1, [DepartmentMonthlyInformation].TotalParameter2, [DepartmentMonthlyInformation].TotalParameter3, [DepartmentMonthlyInformation].TotalBossFactor, [DepartmentMonthlyInformation].TotalReward_, [DepartmentMonthlyInformation].OrganizationalReward_, [DepartmentMonthlyInformation].OperationalReward_, [DepartmentMonthlyInformation].TotalReward_Average, [DepartmentMonthlyInformation].YearTypeIDTitle, [DepartmentMonthlyInformation].MonthTypeIDTitle, [DepartmentMonthlyInformation].DepartmentIDTitle, [DepartmentMonthlyInformation].RewardPerEmployee, [DepartmentMonthlyInformation].OperationalRewardCalculated, [DepartmentMonthlyInformation].OperationalReward, [DepartmentMonthlyInformation].OrganizationalRewardCalculated, [DepartmentMonthlyInformation].OrganizationalReward, [DepartmentMonthlyInformation].MonthlyProceed, [DepartmentMonthlyInformation].DesiredMonthlyProceed, [DepartmentMonthlyInformation].LastYearProceed, [DepartmentMonthlyInformation].StatisticsFinalalization, [DepartmentMonthlyInformation].AssistantRewardsFinalization, [DepartmentMonthlyInformation].ManagerRewardsFinalization, [DepartmentMonthlyInformation].IsOfficialRewardsFinalizedBoss, [DepartmentMonthlyInformation].IsOfficialRewardsFinalizedAssistant, [DepartmentMonthlyInformation].IsOfficialRewardsFinalizedManager, [DepartmentMonthlyInformation].ContractualRewardsFinalization, [DepartmentMonthlyInformation].IsContractualRewardsFinalizedBoss, [DepartmentMonthlyInformation].IsContractualRewardsFinalizedAssistant, [DepartmentMonthlyInformation].IsContractualRewardsFinalizedManager, [DepartmentMonthlyInformation].DossierNumber, [DepartmentMonthlyInformation].Value3, [DepartmentMonthlyInformation].Value4, [DepartmentMonthlyInformation].Value5, [DepartmentMonthlyInformation].Value6, [DepartmentMonthlyInformation].EmployeeNumber, [DepartmentMonthlyInformation].ContractualEmployeeNumber
+FROM [AdjutancyType]
+	Inner Join [Department] on [AdjutancyType].AdjutancyTypeID = [Department].AdjutancyTypeID
+	Inner Join [DepartmentMonthlyInformation] on [Department].DepartmentID = [DepartmentMonthlyInformation].DepartmentID
+WHERE [AdjutancyType].AdjutancyTypeID = @AdjutancyTypeID 
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from ActivityUserType using ActivityTypeID. This procedure is used in ActivityType class.
+CREATE PROCEDURE dbo.ActivityUserType_GetList_UseInActivityType
+	(
+		@ActivityTypeID int
+	)
+AS
+	select * from [ActivityUserType] where ActivityTypeID = @ActivityTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from Department using AdjutancyTypeID. This procedure is used in AdjutancyType class.
+CREATE PROCEDURE dbo.Department_GetList_UseInAdjutancyType
+	(
+		@AdjutancyTypeID int
+	)
+AS
+	select * from [Department] where AdjutancyTypeID = @AdjutancyTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from Department using ComputationTypeID. This procedure is used in ComputationType class.
+CREATE PROCEDURE dbo.Department_GetList_UseInComputationType
+	(
+		@ComputationTypeID int
+	)
+AS
+	select * from [Department] where ComputationTypeID = @ComputationTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from Employee using ContractTypeID. This procedure is used in ContractType class.
+CREATE PROCEDURE dbo.Employee_GetList_UseInContractType
+	(
+		@ContractTypeID int
+	)
+AS
+	select * from [Employee] where ContractTypeID = @ContractTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from DepartmentMonthlyInformation using DepartmentID. This procedure is used in Department class.
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_GetList_UseInDepartment
+	(
+		@DepartmentID int
+	)
+AS
+	select * from [DepartmentMonthlyInformation] where DepartmentID = @DepartmentID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from Employee using DepartmentID. This procedure is used in Department class.
+CREATE PROCEDURE dbo.Employee_GetList_UseInDepartment
+	(
+		@DepartmentID int
+	)
+AS
+	select * from [Employee] where DepartmentID = @DepartmentID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from ContractualEmployeeReward using NationalCode. This procedure is used in Employee class.
+CREATE PROCEDURE dbo.ContractualEmployeeReward_GetList_UseInEmployee
+	(
+		@NationalCode bigint
+	)
+AS
+	select * from [ContractualEmployeeReward] where NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from EmployeeUserType using NationalCode. This procedure is used in Employee class.
+CREATE PROCEDURE dbo.EmployeeUserType_GetList_UseInEmployee
+	(
+		@NationalCode bigint
+	)
+AS
+	select * from [EmployeeUserType] where NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from OfficialEmployeeReward using NationalCode. This procedure is used in Employee class.
+CREATE PROCEDURE dbo.OfficialEmployeeReward_GetList_UseInEmployee
+	(
+		@NationalCode bigint
+	)
+AS
+	select * from [OfficialEmployeeReward] where NationalCode = @NationalCode
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from BaseMonthlyInformation using MainOfficeTypeID. This procedure is used in MainOfficeType class.
+CREATE PROCEDURE dbo.BaseMonthlyInformation_GetList_UseInMainOfficeType
+	(
+		@MainOfficeTypeID int
+	)
+AS
+	select * from [BaseMonthlyInformation] where MainOfficeTypeID = @MainOfficeTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from Department using MainOfficeTypeID. This procedure is used in MainOfficeType class.
+CREATE PROCEDURE dbo.Department_GetList_UseInMainOfficeType
+	(
+		@MainOfficeTypeID int
+	)
+AS
+	select * from [Department] where MainOfficeTypeID = @MainOfficeTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from BaseMonthlyInformation using MonthTypeID. This procedure is used in MonthType class.
+CREATE PROCEDURE dbo.BaseMonthlyInformation_GetList_UseInMonthType
+	(
+		@MonthTypeID int
+	)
+AS
+	select * from [BaseMonthlyInformation] where MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from ContractualEmployeeReward using MonthTypeID. This procedure is used in MonthType class.
+CREATE PROCEDURE dbo.ContractualEmployeeReward_GetList_UseInMonthType
+	(
+		@MonthTypeID int
+	)
+AS
+	select * from [ContractualEmployeeReward] where MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from DepartmentMonthlyInformation using MonthTypeID. This procedure is used in MonthType class.
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_GetList_UseInMonthType
+	(
+		@MonthTypeID int
+	)
+AS
+	select * from [DepartmentMonthlyInformation] where MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from OfficialEmployeeReward using MonthTypeID. This procedure is used in MonthType class.
+CREATE PROCEDURE dbo.OfficialEmployeeReward_GetList_UseInMonthType
+	(
+		@MonthTypeID int
+	)
+AS
+	select * from [OfficialEmployeeReward] where MonthTypeID = @MonthTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from Employee using RoleTypeID. This procedure is used in RoleType class.
+CREATE PROCEDURE dbo.Employee_GetList_UseInRoleType
+	(
+		@RoleTypeID int
+	)
+AS
+	select * from [Employee] where RoleTypeID = @RoleTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from ActivityUserType using UserTypeID. This procedure is used in UserType class.
+CREATE PROCEDURE dbo.ActivityUserType_GetList_UseInUserType
+	(
+		@UserTypeID int
+	)
+AS
+	select * from [ActivityUserType] where UserTypeID = @UserTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from EmployeeUserType using UserTypeID. This procedure is used in UserType class.
+CREATE PROCEDURE dbo.EmployeeUserType_GetList_UseInUserType
+	(
+		@UserTypeID int
+	)
+AS
+	select * from [EmployeeUserType] where UserTypeID = @UserTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from BaseMonthlyInformation using YearTypeID. This procedure is used in YearType class.
+CREATE PROCEDURE dbo.BaseMonthlyInformation_GetList_UseInYearType
+	(
+		@YearTypeID int
+	)
+AS
+	select * from [BaseMonthlyInformation] where YearTypeID = @YearTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from ContractualEmployeeReward using YearTypeID. This procedure is used in YearType class.
+CREATE PROCEDURE dbo.ContractualEmployeeReward_GetList_UseInYearType
+	(
+		@YearTypeID int
+	)
+AS
+	select * from [ContractualEmployeeReward] where YearTypeID = @YearTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from DepartmentMonthlyInformation using YearTypeID. This procedure is used in YearType class.
+CREATE PROCEDURE dbo.DepartmentMonthlyInformation_GetList_UseInYearType
+	(
+		@YearTypeID int
+	)
+AS
+	select * from [DepartmentMonthlyInformation] where YearTypeID = @YearTypeID
+	RETURN
+	GO
+
+
+
+--X Procedure to GET rows from OfficialEmployeeReward using YearTypeID. This procedure is used in YearType class.
+CREATE PROCEDURE dbo.OfficialEmployeeReward_GetList_UseInYearType
+	(
+		@YearTypeID int
+	)
+AS
+	select * from [OfficialEmployeeReward] where YearTypeID = @YearTypeID
+	RETURN
+	GO
+
+
+
