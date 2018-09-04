@@ -1,7 +1,7 @@
 USE [RewardsDB]
 DROP PROCEDURE [dbo].[ActivityType_Delete]
 GO
-
+ 
 
 
 
