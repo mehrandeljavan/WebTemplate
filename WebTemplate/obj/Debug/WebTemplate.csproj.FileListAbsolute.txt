@@ -1,0 +1,6 @@
+J:\WebTemplate\WebTemplate\bin\WebTemplate.dll.config
+J:\WebTemplate\WebTemplate\bin\WebTemplate.dll
+J:\WebTemplate\WebTemplate\bin\WebTemplate.pdb
+J:\WebTemplate\WebTemplate\obj\Debug\WebTemplate.csprojResolveAssemblyReference.cache
+J:\WebTemplate\WebTemplate\obj\Debug\WebTemplate.dll
+J:\WebTemplate\WebTemplate\obj\Debug\WebTemplate.pdb
