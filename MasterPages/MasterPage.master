@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="WebForms_MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="../CSS/Fonts.css" rel="stylesheet" />
+    <link href="../CSS/MyTheme.css" rel="stylesheet" />
+    <link href="../CSS/Responsive.css" rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+        
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+			<h1>Header</h1>
+		</div>
+		<div class="row">
+			<div class="col-3 col-m-3 menu">
+				<ul>
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+					<li>Item 4</li>
+				</ul>
+			</div>
+			<div class="col-6 col-m-9">
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+                </asp:ContentPlaceHolder>
+			</div>
+
+            <div class="col-3 col-m-12 right">
+				<div class="aside">
+					<h2>What?</h2>
+					<p>Chania is a city on the island of Crete.</p>
+					
+					<h2>Where?</h2>
+					<p>Crete is a Greek island in the Mediterranean Sea.</p>
+					
+					<h2>How?</h2>
+					<p>You can reach Chania airport from all over Europe.</p>
+				</div>
+			</div>
+		</div>
+        <div class="footer">
+			<p>Resize the browser window to see how the content respond to the resizing.</p>
+		</div>
+    <%--<div>
+        <table>
+            
+            <tr class="trHeader">
+                <td> Website Header </td>
+            </tr>
+
+            <tr>
+                
+                <td class="trRightPanel">
+                    
+                </td>
+
+                <td class="trCenterPanel">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+                    </asp:ContentPlaceHolder>
+                </td>
+
+                <td class="trLeftPanel">
+                </td>
+
+            </tr>
+
+        </table>
+
+
+    </div>--%>
+    </form>
+</body>
+</html>

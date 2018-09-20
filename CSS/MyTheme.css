@@ -1,0 +1,112 @@
+/*form
+{
+    direction:rtl;
+    font-family:WebFont_Yekan;
+}
+
+form div
+{
+    direction:rtl;
+    font-family:WebFont_Yekan;
+}
+
+form div table
+{
+    direction:rtl;
+    width:100%;
+    height:100%;
+    font-family:WebFont_Yekan;
+    border-width:0px;
+}
+
+form div table tr
+{
+    direction:rtl;
+    font-family:WebFont_Yekan;
+}
+
+.trHeader
+{
+    direction:rtl;
+    background-color:cyan; 
+    width:100%;
+    text-align: center;
+    font-family:WebFont_Yekan;
+}
+
+.trRightPanel
+{
+    background-color:pink; 
+    width: 20%;
+    direction:rtl;
+    font-family:WebFont_Yekan;
+}
+
+.trLeftPanel
+{
+    background-color:yellow; 
+    width:20%;
+    direction:rtl;
+    font-family:WebFont_Yekan;
+}
+
+.trCenterPanel
+{
+    background-color:#EEEEEE;
+    direction:rtl;
+    font-family:WebFont_Yekan;
+}
+
+.contentPlaceHolder
+{
+    font-family:WebFont_Yekan;
+}*/
+
+
+.textBox
+{
+    font-family:WebFont_Yekan;
+    font-style:normal;
+    color:#000000;
+    border-radius: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+    direction:rtl;
+}
+
+.defaultText
+{
+    font-family:WebFont_Yekan;
+    font-style:normal;
+    color:#CCCCCC;
+    border-radius: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+    direction:rtl;
+}
+.defaultTextFocus
+{
+    font-family:WebFont_Yekan;
+    font-style:normal;
+    color:#000000;
+    border-radius: 55px;
+    padding-left: 5px;
+    padding-right: 5px;
+    direction:rtl;
+}
+
+.MehButton
+{
+    font-family:WebFont_Yekan;
+    font-weight:900;
+    background-color: #9933CC;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    direction:rtl;
+}
