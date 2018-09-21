@@ -9,40 +9,40 @@
 			<h3>
 				List of all the RoleTypes</h3>
 			<br />
-			<asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" AutoGenerateColumns="False" AutoGenerateEditButton="True" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" BorderColor="Silver" BorderStyle="Solid" BorderWidth="1px" Font-Names="BYekan">
-			<FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-			<PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
-			<SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
-			<HeaderStyle BackColor="#9933CC" Font-Bold="True" ForeColor="White" />
-			<EditRowStyle BackColor="#33b5e5" />
-			<RowStyle BackColor="#EFF3FB" />
-			<AlternatingRowStyle BackColor="White" />
+			<asp:GridView ID="GridView1" runat="server" CssClass="GridView" AutoGenerateColumns="False" AutoGenerateEditButton="True" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" >
+			<FooterStyle CssClass="GridViewFooter" />
+			<PagerStyle CssClass="GridViewPager" />
+			<SelectedRowStyle CssClass="GridViewSelectedRow" />
+			<HeaderStyle CssClass="GridViewHeader" />
+			<EditRowStyle CssClass="GridViewEditRow" />
+			<RowStyle CssClass="GridViewRow" />
+			<AlternatingRowStyle CssClass="GridViewAlternatingRow" />
 			<Columns>
 
 				<asp:TemplateField HeaderText="RoleTypeID">
 					<EditItemTemplate>
-						<asp:Label ID="lblRoleTypeID" runat="server" Text='<%# Eval("RoleTypeID") %>'></asp:Label>
+						<asp:Label ID="lblRoleTypeID" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("RoleTypeID") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelRoleTypeID" runat="server" Text='<%# Bind("RoleTypeID") %>'></asp:Label>
+						<asp:Label ID="LabelRoleTypeID" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("RoleTypeID") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="Factor">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtFactor" runat="server" Text='<%# Eval("Factor") %>'></asp:TextBox>
+						<asp:TextBox ID="txtFactor" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("Factor") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelFactor" runat="server" Text='<%# Bind("Factor") %>'></asp:Label>
+						<asp:Label ID="LabelFactor" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("Factor") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="Title">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtTitle" runat="server" Text='<%# Eval("Title") %>'></asp:TextBox>
+						<asp:TextBox ID="txtTitle" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("Title") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelTitle" runat="server" Text='<%# Bind("Title") %>'></asp:Label>
+						<asp:Label ID="LabelTitle" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("Title") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
@@ -53,7 +53,7 @@
 		&nbsp;&nbsp;&nbsp;
 		<br />
 		<br />
-		<asp:Button ID="Button1" runat="server" Text="Add New RoleType" OnClick="Button1_Click" CssClass="MehButton" /><br />
+		<asp:Button ID="Button1" runat="server" Text="Add New RoleType" OnClick="Button1_Click" CssClass="MyButton" /><br />
 		<br />
 		<asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
 		</div>

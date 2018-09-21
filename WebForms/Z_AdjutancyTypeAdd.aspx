@@ -14,7 +14,7 @@
 					AdjutantNationalCode
 				</td>
 				<td>
-					<asp:TextBox ID="txtAdjutantNationalCode" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtAdjutantNationalCode" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -24,15 +24,15 @@
 					Title
 				</td>
 				<td>
-					<asp:TextBox ID="txtTitle" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtTitle" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
 		</table>
 		<br />
 		Are you sure you want to submit?&nbsp; &nbsp;
-		<asp:Button ID="btnYES" runat="server" OnClick="btnYES_Click" Text="Submit" />
+		<asp:Button ID="btnYES" runat="server" OnClick="btnYES_Click" Text="Submit" CssClass="MyButton" />
 		&nbsp; &nbsp;
-		<asp:Button ID="btnNO" runat="server" OnClick="btnNO_Click" Text="Cancel" /></div>
+		<asp:Button ID="btnNO" runat="server" OnClick="btnNO_Click" Text="Cancel"  CssClass="MyButton" /></div>
 </asp:Content>
 

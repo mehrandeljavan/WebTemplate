@@ -1,112 +1,281 @@
-/*form
+:root
 {
-    direction:rtl;
-    font-family:WebFont_Yekan;
+    --MainForegroundColor               : #9933CC;
+    --MainForegroundColorMoreLight      : #AA55EE;
+    --MainForegroundColorMoreDark       : #771199;
+
+    --MainForegroundColor2              : #33B5E5;
+    --MainForegroundColor2MoreLight     : #55D7FF;
+    --MainForegroundColor2MoreDark      : #1193C3;
+
+    --MainTextColorLight                : white;
+    --MainTextColorLightMoreDark        : #CCCCCC;
+    --MainTextColor-dark                : black;
+    --MainTextColor-darkMoreLight       : #333333;
+
+    --MainBackgroundColor1              : white;
+    --MainBackgroundColor2              : #e7d7ef;
+    --MainBackgroundColor3              : #f6f1f9;
+
+    --MainFont                          : WebFont_Yekan;
+
+    /*--MainForegroundColor               : lime;
+    --MainForegroundColorMoreLight    : yellow;
+    --MainForegroundColorMoreDark      : green;
+
+    --MainForegroundColor2              : red;
+    --MainForegroundColor2MoreLight   : orange;
+    --MainForegroundColor2MoreDark     : violet;
+        
+    --MainTextColorLight              : gold;
+    --MainTextColorLightMoreDark      : #CCCCCC;
+    --MainTextColor-dark                : brown;
+    --MainTextColor-darkMoreLight     : #333333;
+
+    --MainFont                           : WebFont_Nazanin;*/
+
+}
+/*---Responsive style -------------------------------------------------------------------*/
+*
+{
+	box-sizing : border-box;
+}
+		
+html
+{
+	font-family : "Lucida Sans" , sans-serif;
 }
 
-form div
+.header{
+	background-color : var(--MainForegroundColor);
+	color : var(--MainTextColorLight);
+	padding : 15px;
+			
+}
+		
+[class*="col-"]
 {
-    direction:rtl;
-    font-family:WebFont_Yekan;
+	float : left;
+	padding : 15px;
+			
+}
+		
+[class*="col-"]{
+		width : 100%;
+	}
+			
+@media only screen and (min-width:600px){
+	.col-m-1{width:8.33%;}
+	.col-m-2{width:16.66%;}
+	.col-m-3{width:25%;}
+	.col-m-4{width:33.33%;}
+	.col-m-5{width:41.66%;}
+	.col-m-6{width:50%;}
+	.col-m-7{width:58.33%;}
+	.col-m-8{width:66.66%;}
+	.col-m-9{width:75%;}
+	.col-m-10{width:83.33%;}
+	.col-m-11{width:91.66%;}
+	.col-m-12{width:100%;}
 }
 
-form div table
+@media only screen and (min-width:768px){
+	.col-1{width:8.33%;}
+	.col-2{width:16.66%;}
+	.col-3{width:25%;}
+	.col-4{width:33.33%;}
+	.col-5{width:41.66%;}
+	.col-6{width:50%;}
+	.col-7{width:58.33%;}
+	.col-8{width:66.66%;}
+	.col-9{width:75%;}
+	.col-10{width:83.33%;}
+	.col-11{width:91.66%;}
+	.col-12{width:100%;}
+}
+		
+.row:after
 {
-    direction:rtl;
-    width:100%;
-    height:100%;
-    font-family:WebFont_Yekan;
-    border-width:0px;
+	content : "";
+	clear : both;
+	display : block;
+}
+		
+.menu ul{
+	list-style-type : none;
+	margin : 0;
+	padding : 0;
+}
+		
+.menu li{
+	padding : 8px;
+	margin-bottom : 7px;
+	background-color : var(--MainForegroundColor2);
+	color : var(--MainTextColorLight);
+	box-shadow : 0 1px 3px rgba(0,0,0,0.12) , 0 1px 2px rgba(0,0,0,0.24);
+}
+		
+.menu li:hover
+{
+	background-color : var(--MainForegroundColor2MoreLight);
+}
+.menu li:active
+{
+	background-color : var(--MainForegroundColor2MoreDark);
+}
+		
+.aside{
+	background-color : var(--MainForegroundColor2);
+	padding : 15px;
+	color : var(--MainTextColorLight);
+	text-align : center;
+	font-size : 14px;
+	box-shadow : 0 1px 3px rgba(0,0,0,0.12) , 0 1px 2px rgba(0,0,0,0.24);
+}
+		
+.footer{
+	background-color : var(--MainForegroundColor2);
+	color : var(--MainTextColorLight);
+	text-align : center;
+	font-size : 12px;
+	padding : 15px;
 }
 
-form div table tr
-{
-    direction:rtl;
-    font-family:WebFont_Yekan;
-}
+/*---ASP.net controls -------------------------------------------------------------------*/
 
-.trHeader
+.MyTextBox
 {
-    direction:rtl;
-    background-color:cyan; 
-    width:100%;
-    text-align: center;
-    font-family:WebFont_Yekan;
-}
-
-.trRightPanel
-{
-    background-color:pink; 
-    width: 20%;
-    direction:rtl;
-    font-family:WebFont_Yekan;
-}
-
-.trLeftPanel
-{
-    background-color:yellow; 
-    width:20%;
-    direction:rtl;
-    font-family:WebFont_Yekan;
-}
-
-.trCenterPanel
-{
-    background-color:#EEEEEE;
-    direction:rtl;
-    font-family:WebFont_Yekan;
-}
-
-.contentPlaceHolder
-{
-    font-family:WebFont_Yekan;
-}*/
-
-
-.textBox
-{
-    font-family:WebFont_Yekan;
+    font-family:var(--MainFont);
     font-style:normal;
-    color:#000000;
-    border-radius: 55px;
+    color:var(--MainTextColor-dark);
+    border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
     direction:rtl;
 }
 
-.defaultText
+.MyDefaultText
 {
-    font-family:WebFont_Yekan;
+    font-family:var(--MainFont);
     font-style:normal;
-    color:#CCCCCC;
-    border-radius: 55px;
+    color:var(--MainTextColorLightMoreDark);
+    border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
     direction:rtl;
 }
-.defaultTextFocus
+.MyDefaultTextFocus
 {
-    font-family:WebFont_Yekan;
+    font-family:var(--MainFont);
     font-style:normal;
-    color:#000000;
-    border-radius: 55px;
+    color:var(--MainTextColor-dark);
+    border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
     direction:rtl;
 }
 
-.MehButton
+.MyButton
 {
-    font-family:WebFont_Yekan;
+    font-family:var(--MainFont);
     font-weight:900;
-    background-color: #9933CC;
+    background-color: var(--MainForegroundColor);
     border: none;
-    color: white;
+    color: var(--MainTextColorLight);
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 50px;
+    border-radius: 5px;
     direction:rtl;
+    box-shadow : 0 1px 3px rgba(0,0,0,0.5) , 0 1px 2px rgba(0,0,0,0.5);
+}
+
+.MyButton:hover
+{
+    
+    background-color: var(--MainForegroundColorMoreLight);
+}
+
+.MyButton:active
+{
+    background-color: var(--MainForegroundColorMoreDark);
+}
+
+/*---GridView------------------------------------------------------------*/
+
+.GridView
+{
+    padding:4px; 
+    font-family:var(--MainFont);
+    border-color: var(--MainTextColor-dark);
+    border-style:solid;
+    border-width: 1px;
+    width: 100%;
+}
+
+.GridViewFooter
+{
+    background-color:var(--MainForegroundColor);
+    font-weight:bold;
+    color:var(--MainTextColorLight);
+}
+
+.GridViewPager
+{
+    background-color:var(--MainForegroundColor2);
+    color:var(--MainTextColorLight);
+    align-content:center;
+}
+
+.GridViewSelectedRow
+{
+    background-color:var(--MainForegroundColor2);
+    font-weight:bold;
+    color:var(--MainTextColorLightMoreDark);
+}
+
+.GridViewHeader
+{
+    background-color:var(--MainForegroundColor);
+    font-weight:bold;
+    color:var(--MainTextColorLight);
+}
+
+.GridViewEditRow
+{
+    background-color:var(--MainForegroundColorMoreLight);
+}
+
+.GridViewRow
+{
+    background-color:var(--MainBackgroundColor2);
+    text-align:right;
+}
+
+.GridViewAlternatingRow
+{
+    background-color:var(--MainBackgroundColor3);
+    text-align:right;
+}
+
+.GridViewEditItemTextBox
+{
+    width:100%;
+    text-align:right;
+    font-family:var(--MainFont);
+    color:var(--MainForegroundColorMoreLight);
+    border-radius:5px;
+    font-size: 16px;
+}
+
+.GridViewEditItemLabel
+{
+    width:100%;
+    text-align:right;
+    font-family:var(--MainFont);
+    color:var(--MainTextColor-dark);
+    border-radius:5px;
+    font-size: 16px;
 }

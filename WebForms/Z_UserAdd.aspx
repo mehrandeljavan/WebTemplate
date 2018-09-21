@@ -24,7 +24,7 @@
 					Password
 				</td>
 				<td>
-					<asp:TextBox ID="txtPassword" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtPassword" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -34,7 +34,7 @@
 					LastPassChangeDate
 				</td>
 				<td>
-					<asp:TextBox ID="txtLastPassChangeDate" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtLastPassChangeDate" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -44,15 +44,15 @@
 					IsActiveUser
 				</td>
 				<td>
-					<asp:TextBox ID="txtIsActiveUser" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtIsActiveUser" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
 		</table>
 		<br />
 		Are you sure you want to submit?&nbsp; &nbsp;
-		<asp:Button ID="btnYES" runat="server" OnClick="btnYES_Click" Text="Submit" />
+		<asp:Button ID="btnYES" runat="server" OnClick="btnYES_Click" Text="Submit" CssClass="MyButton" />
 		&nbsp; &nbsp;
-		<asp:Button ID="btnNO" runat="server" OnClick="btnNO_Click" Text="Cancel" /></div>
+		<asp:Button ID="btnNO" runat="server" OnClick="btnNO_Click" Text="Cancel"  CssClass="MyButton" /></div>
 </asp:Content>
 

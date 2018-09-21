@@ -1,21 +1,82 @@
 ﻿@charset 'UTF-8';
-
+/*---My fonts------------------------------------------------*/
 @font-face {
-  
 	font-family: 'WebFont_Yekan';
-
 	font-style: normal;
-  
 	font-weight: 400;
-  
-	src: url(fonts/BYekan.eot);
-  
+	src: url(fonts/Yekan.eot);
 	src: local('BYekan'), 
 	local('BYekan-Regular'), 
-	url(fonts/BYekan.eot) format('embedded-opentype'), 
-	url(fonts/BYekan.woff) format('woff');
-	
+	url(fonts/Yekan.eot) format('embedded-opentype'), 
+	url(fonts/Yekan.woff) format('woff');
 }
+
+@font-face {
+	font-family: 'WebFont_Nazanin';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/BNazanin.eof);
+	src: local('BNazanin'), 
+	local('BNazanin-Regular'), 
+	url(fonts/BNazanin.eot) format('embedded-opentype'), 
+	url(fonts/BNazanin.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'WebFont_Titr';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/BTitrBold.eof);
+	src: local('BTitrBold'), 
+	local('BTitrBold-Regular'), 
+	url(fonts/BTitrBold.eot) format('embedded-opentype'), 
+	url(fonts/BTitrBold.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'WebFont_Mitra';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/BMitra.eof);
+	src: local('BMitra'), 
+	local('BMitra-Regular'), 
+	url(fonts/BMitra.eot) format('embedded-opentype'), 
+	url(fonts/BMitra.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'WebFont_Mahsa';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/BMahsa.eof);
+	src: local('BMahsa'), 
+	local('BMahsa-Regular'), 
+	url(fonts/BMahsa.eot) format('embedded-opentype'), 
+	url(fonts/BMahsa.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'WebFont_Lotus';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/BLotus.eof);
+	src: local('BLotus'), 
+	local('BLotus-Regular'), 
+	url(fonts/BLotus.eot) format('embedded-opentype'), 
+	url(fonts/BLotus.woff) format('woff');
+}
+
+@font-face {
+	font-family: 'WebFont_Homa';
+	font-style: normal;
+	font-weight: 400;
+	src: url(fonts/BHoma.eof);
+	src: local('BHoma'), 
+	local('BHoma-Regular'), 
+	url(fonts/BHoma.eot) format('embedded-opentype'), 
+	url(fonts/BHoma.woff) format('woff');
+}
+/*---Other fonts--------------------------------------------*/
 
 @font-face
 {

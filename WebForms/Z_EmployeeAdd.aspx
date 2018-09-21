@@ -14,7 +14,7 @@
 					NationalCode
 				</td>
 				<td>
-					<asp:TextBox ID="txtNationalCode" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtNationalCode" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -24,7 +24,7 @@
 					PersonalCode
 				</td>
 				<td>
-					<asp:TextBox ID="txtPersonalCode" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtPersonalCode" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -34,7 +34,7 @@
 					FirstName
 				</td>
 				<td>
-					<asp:TextBox ID="txtFirstName" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtFirstName" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -44,7 +44,7 @@
 					LastName
 				</td>
 				<td>
-					<asp:TextBox ID="txtLastName" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtLastName" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -54,7 +54,7 @@
 					AccountNumber
 				</td>
 				<td>
-					<asp:TextBox ID="txtAccountNumber" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtAccountNumber" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -94,15 +94,15 @@
 					IsActiveEmployee
 				</td>
 				<td>
-					<asp:TextBox ID="txtIsActiveEmployee" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtIsActiveEmployee" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
 		</table>
 		<br />
 		Are you sure you want to submit?&nbsp; &nbsp;
-		<asp:Button ID="btnYES" runat="server" OnClick="btnYES_Click" Text="Submit" />
+		<asp:Button ID="btnYES" runat="server" OnClick="btnYES_Click" Text="Submit" CssClass="MyButton" />
 		&nbsp; &nbsp;
-		<asp:Button ID="btnNO" runat="server" OnClick="btnNO_Click" Text="Cancel" /></div>
+		<asp:Button ID="btnNO" runat="server" OnClick="btnNO_Click" Text="Cancel"  CssClass="MyButton" /></div>
 </asp:Content>
 

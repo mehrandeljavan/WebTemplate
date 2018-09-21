@@ -44,7 +44,7 @@
 					BossFactor
 				</td>
 				<td>
-					<asp:TextBox ID="txtBossFactor" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtBossFactor" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -54,7 +54,7 @@
 					Reward
 				</td>
 				<td>
-					<asp:TextBox ID="txtReward" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtReward" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -64,7 +64,7 @@
 					BossFinalValue
 				</td>
 				<td>
-					<asp:TextBox ID="txtBossFinalValue" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtBossFinalValue" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -74,7 +74,7 @@
 					AssistantFinalValue
 				</td>
 				<td>
-					<asp:TextBox ID="txtAssistantFinalValue" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtAssistantFinalValue" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -84,7 +84,7 @@
 					ManagerFinalValue
 				</td>
 				<td>
-					<asp:TextBox ID="txtManagerFinalValue" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtManagerFinalValue" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -94,7 +94,7 @@
 					ExtraReward1
 				</td>
 				<td>
-					<asp:TextBox ID="txtExtraReward1" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtExtraReward1" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -104,7 +104,7 @@
 					ExtraReward2
 				</td>
 				<td>
-					<asp:TextBox ID="txtExtraReward2" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtExtraReward2" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -114,7 +114,7 @@
 					ExtraReward3
 				</td>
 				<td>
-					<asp:TextBox ID="txtExtraReward3" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtExtraReward3" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -124,7 +124,7 @@
 					RoleTypeID
 				</td>
 				<td>
-					<asp:TextBox ID="txtRoleTypeID" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtRoleTypeID" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -134,7 +134,7 @@
 					Parameter1
 				</td>
 				<td>
-					<asp:TextBox ID="txtParameter1" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtParameter1" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -144,7 +144,7 @@
 					Parameter2
 				</td>
 				<td>
-					<asp:TextBox ID="txtParameter2" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtParameter2" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -154,15 +154,15 @@
 					Parameter3
 				</td>
 				<td>
-					<asp:TextBox ID="txtParameter3" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtParameter3" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
 		</table>
 		<br />
 		Are you sure you want to submit?&nbsp; &nbsp;
-		<asp:Button ID="btnYES" runat="server" OnClick="btnYES_Click" Text="Submit" />
+		<asp:Button ID="btnYES" runat="server" OnClick="btnYES_Click" Text="Submit" CssClass="MyButton" />
 		&nbsp; &nbsp;
-		<asp:Button ID="btnNO" runat="server" OnClick="btnNO_Click" Text="Cancel" /></div>
+		<asp:Button ID="btnNO" runat="server" OnClick="btnNO_Click" Text="Cancel"  CssClass="MyButton" /></div>
 </asp:Content>
 

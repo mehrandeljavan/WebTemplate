@@ -6,7 +6,9 @@
 <head runat="server">
     <link href="../CSS/Fonts.css" rel="stylesheet" />
     <link href="../CSS/MyTheme.css" rel="stylesheet" />
-    <link href="../CSS/Responsive.css" rel="stylesheet" />
+<%--    <link href="../CSS/ResponsiveStyle.css" rel="stylesheet" />
+    <link href="../CSS/GridViewStyle.css" rel="stylesheet" />--%>
+
     <title></title>
     <asp:ContentPlaceHolder id="head" runat="server">
         

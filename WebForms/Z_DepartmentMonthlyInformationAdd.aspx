@@ -44,7 +44,7 @@
 					RewardPerEmployee
 				</td>
 				<td>
-					<asp:TextBox ID="txtRewardPerEmployee" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtRewardPerEmployee" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -54,7 +54,7 @@
 					OperationalRewardCalculated
 				</td>
 				<td>
-					<asp:TextBox ID="txtOperationalRewardCalculated" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtOperationalRewardCalculated" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -64,7 +64,7 @@
 					OperationalReward
 				</td>
 				<td>
-					<asp:TextBox ID="txtOperationalReward" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtOperationalReward" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -74,7 +74,7 @@
 					OrganizationalRewardCalculated
 				</td>
 				<td>
-					<asp:TextBox ID="txtOrganizationalRewardCalculated" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtOrganizationalRewardCalculated" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -84,7 +84,7 @@
 					OrganizationalReward
 				</td>
 				<td>
-					<asp:TextBox ID="txtOrganizationalReward" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtOrganizationalReward" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -94,7 +94,7 @@
 					MonthlyProceed
 				</td>
 				<td>
-					<asp:TextBox ID="txtMonthlyProceed" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtMonthlyProceed" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -104,7 +104,7 @@
 					DesiredMonthlyProceed
 				</td>
 				<td>
-					<asp:TextBox ID="txtDesiredMonthlyProceed" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtDesiredMonthlyProceed" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -114,7 +114,7 @@
 					LastYearProceed
 				</td>
 				<td>
-					<asp:TextBox ID="txtLastYearProceed" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtLastYearProceed" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -124,7 +124,7 @@
 					StatisticsFinalalization
 				</td>
 				<td>
-					<asp:TextBox ID="txtStatisticsFinalalization" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtStatisticsFinalalization" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -134,7 +134,7 @@
 					AssistantRewardsFinalization
 				</td>
 				<td>
-					<asp:TextBox ID="txtAssistantRewardsFinalization" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtAssistantRewardsFinalization" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -144,7 +144,7 @@
 					ManagerRewardsFinalization
 				</td>
 				<td>
-					<asp:TextBox ID="txtManagerRewardsFinalization" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtManagerRewardsFinalization" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -154,7 +154,7 @@
 					IsOfficialRewardsFinalizedBoss
 				</td>
 				<td>
-					<asp:TextBox ID="txtIsOfficialRewardsFinalizedBoss" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtIsOfficialRewardsFinalizedBoss" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -164,7 +164,7 @@
 					IsOfficialRewardsFinalizedAssistant
 				</td>
 				<td>
-					<asp:TextBox ID="txtIsOfficialRewardsFinalizedAssistant" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtIsOfficialRewardsFinalizedAssistant" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -174,7 +174,7 @@
 					IsOfficialRewardsFinalizedManager
 				</td>
 				<td>
-					<asp:TextBox ID="txtIsOfficialRewardsFinalizedManager" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtIsOfficialRewardsFinalizedManager" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -184,7 +184,7 @@
 					ContractualRewardsFinalization
 				</td>
 				<td>
-					<asp:TextBox ID="txtContractualRewardsFinalization" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtContractualRewardsFinalization" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -194,7 +194,7 @@
 					IsContractualRewardsFinalizedBoss
 				</td>
 				<td>
-					<asp:TextBox ID="txtIsContractualRewardsFinalizedBoss" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtIsContractualRewardsFinalizedBoss" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -204,7 +204,7 @@
 					IsContractualRewardsFinalizedAssistant
 				</td>
 				<td>
-					<asp:TextBox ID="txtIsContractualRewardsFinalizedAssistant" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtIsContractualRewardsFinalizedAssistant" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -214,7 +214,7 @@
 					IsContractualRewardsFinalizedManager
 				</td>
 				<td>
-					<asp:TextBox ID="txtIsContractualRewardsFinalizedManager" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtIsContractualRewardsFinalizedManager" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -224,7 +224,7 @@
 					DossierNumber
 				</td>
 				<td>
-					<asp:TextBox ID="txtDossierNumber" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtDossierNumber" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -234,7 +234,7 @@
 					Value3
 				</td>
 				<td>
-					<asp:TextBox ID="txtValue3" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtValue3" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -244,7 +244,7 @@
 					Value4
 				</td>
 				<td>
-					<asp:TextBox ID="txtValue4" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtValue4" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -254,7 +254,7 @@
 					Value5
 				</td>
 				<td>
-					<asp:TextBox ID="txtValue5" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtValue5" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -264,7 +264,7 @@
 					Value6
 				</td>
 				<td>
-					<asp:TextBox ID="txtValue6" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtValue6" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -274,7 +274,7 @@
 					EmployeeNumber
 				</td>
 				<td>
-					<asp:TextBox ID="txtEmployeeNumber" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtEmployeeNumber" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
@@ -284,15 +284,15 @@
 					ContractualEmployeeNumber
 				</td>
 				<td>
-					<asp:TextBox ID="txtContractualEmployeeNumber" runat="server" Width="300px"></asp:TextBox>
+					<asp:TextBox ID="txtContractualEmployeeNumber" runat="server" Width="300px" CssClass="MyTextBox"></asp:TextBox>
 				</td>
 			</tr>
 
 		</table>
 		<br />
 		Are you sure you want to submit?&nbsp; &nbsp;
-		<asp:Button ID="btnYES" runat="server" OnClick="btnYES_Click" Text="Submit" />
+		<asp:Button ID="btnYES" runat="server" OnClick="btnYES_Click" Text="Submit" CssClass="MyButton" />
 		&nbsp; &nbsp;
-		<asp:Button ID="btnNO" runat="server" OnClick="btnNO_Click" Text="Cancel" /></div>
+		<asp:Button ID="btnNO" runat="server" OnClick="btnNO_Click" Text="Cancel"  CssClass="MyButton" /></div>
 </asp:Content>
 

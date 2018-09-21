@@ -9,220 +9,220 @@
 			<h3>
 				List of all the OfficialEmployeeRewards</h3>
 			<br />
-			<asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" AutoGenerateColumns="False" AutoGenerateEditButton="True" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" BorderColor="Silver" BorderStyle="Solid" BorderWidth="1px" Font-Names="BYekan">
-			<FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-			<PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
-			<SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
-			<HeaderStyle BackColor="#9933CC" Font-Bold="True" ForeColor="White" />
-			<EditRowStyle BackColor="#33b5e5" />
-			<RowStyle BackColor="#EFF3FB" />
-			<AlternatingRowStyle BackColor="White" />
+			<asp:GridView ID="GridView1" runat="server" CssClass="GridView" AutoGenerateColumns="False" AutoGenerateEditButton="True" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" >
+			<FooterStyle CssClass="GridViewFooter" />
+			<PagerStyle CssClass="GridViewPager" />
+			<SelectedRowStyle CssClass="GridViewSelectedRow" />
+			<HeaderStyle CssClass="GridViewHeader" />
+			<EditRowStyle CssClass="GridViewEditRow" />
+			<RowStyle CssClass="GridViewRow" />
+			<AlternatingRowStyle CssClass="GridViewAlternatingRow" />
 			<Columns>
 
 				<asp:TemplateField HeaderText="NationalCode">
 					<EditItemTemplate>
-						<asp:Label ID="lblNationalCode" runat="server" Text='<%# Eval("NationalCode") %>'></asp:Label>
+						<asp:Label ID="lblNationalCode" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("NationalCode") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelNationalCode" runat="server" Text='<%# Bind("NationalCode") %>'></asp:Label>
+						<asp:Label ID="LabelNationalCode" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("NationalCode") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="YearTypeID">
 					<EditItemTemplate>
-						<asp:Label ID="lblYearTypeID" runat="server" Text='<%# Eval("YearTypeID") %>'></asp:Label>
+						<asp:Label ID="lblYearTypeID" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("YearTypeID") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelYearTypeID" runat="server" Text='<%# Bind("YearTypeID") %>'></asp:Label>
+						<asp:Label ID="LabelYearTypeID" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("YearTypeID") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="MonthTypeID">
 					<EditItemTemplate>
-						<asp:Label ID="lblMonthTypeID" runat="server" Text='<%# Eval("MonthTypeID") %>'></asp:Label>
+						<asp:Label ID="lblMonthTypeID" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("MonthTypeID") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelMonthTypeID" runat="server" Text='<%# Bind("MonthTypeID") %>'></asp:Label>
+						<asp:Label ID="LabelMonthTypeID" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("MonthTypeID") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="EmployeeFullName">
 					<EditItemTemplate>
-						<asp:Label ID="lblEmployeeFullName" runat="server" Text='<%# Eval("EmployeeFullName") %>'></asp:Label>
+						<asp:Label ID="lblEmployeeFullName" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("EmployeeFullName") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelEmployeeFullName" runat="server" Text='<%# Bind("EmployeeFullName") %>'></asp:Label>
+						<asp:Label ID="LabelEmployeeFullName" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("EmployeeFullName") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="DepartmentIDTitle">
 					<EditItemTemplate>
-						<asp:Label ID="lblDepartmentIDTitle" runat="server" Text='<%# Eval("DepartmentIDTitle") %>'></asp:Label>
+						<asp:Label ID="lblDepartmentIDTitle" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("DepartmentIDTitle") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelDepartmentIDTitle" runat="server" Text='<%# Bind("DepartmentIDTitle") %>'></asp:Label>
+						<asp:Label ID="LabelDepartmentIDTitle" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("DepartmentIDTitle") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="YearTypeIDTitle">
 					<EditItemTemplate>
-						<asp:Label ID="lblYearTypeIDTitle" runat="server" Text='<%# Eval("YearTypeIDTitle") %>'></asp:Label>
+						<asp:Label ID="lblYearTypeIDTitle" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("YearTypeIDTitle") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelYearTypeIDTitle" runat="server" Text='<%# Bind("YearTypeIDTitle") %>'></asp:Label>
+						<asp:Label ID="LabelYearTypeIDTitle" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("YearTypeIDTitle") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="MonthTypeIDTitle">
 					<EditItemTemplate>
-						<asp:Label ID="lblMonthTypeIDTitle" runat="server" Text='<%# Eval("MonthTypeIDTitle") %>'></asp:Label>
+						<asp:Label ID="lblMonthTypeIDTitle" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("MonthTypeIDTitle") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelMonthTypeIDTitle" runat="server" Text='<%# Bind("MonthTypeIDTitle") %>'></asp:Label>
+						<asp:Label ID="LabelMonthTypeIDTitle" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("MonthTypeIDTitle") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="RoleTypeIDTitle">
 					<EditItemTemplate>
-						<asp:Label ID="lblRoleTypeIDTitle" runat="server" Text='<%# Eval("RoleTypeIDTitle") %>'></asp:Label>
+						<asp:Label ID="lblRoleTypeIDTitle" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("RoleTypeIDTitle") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelRoleTypeIDTitle" runat="server" Text='<%# Bind("RoleTypeIDTitle") %>'></asp:Label>
+						<asp:Label ID="LabelRoleTypeIDTitle" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("RoleTypeIDTitle") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="TotalReward">
 					<EditItemTemplate>
-						<asp:Label ID="lblTotalReward" runat="server" Text='<%# Eval("TotalReward") %>'></asp:Label>
+						<asp:Label ID="lblTotalReward" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("TotalReward") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelTotalReward" runat="server" Text='<%# Bind("TotalReward") %>'></asp:Label>
+						<asp:Label ID="LabelTotalReward" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("TotalReward") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="Reward_">
 					<EditItemTemplate>
-						<asp:Label ID="lblReward_" runat="server" Text='<%# Eval("Reward_") %>'></asp:Label>
+						<asp:Label ID="lblReward_" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("Reward_") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelReward_" runat="server" Text='<%# Bind("Reward_") %>'></asp:Label>
+						<asp:Label ID="LabelReward_" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("Reward_") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="RoleTypeIDFactor">
 					<EditItemTemplate>
-						<asp:Label ID="lblRoleTypeIDFactor" runat="server" Text='<%# Eval("RoleTypeIDFactor") %>'></asp:Label>
+						<asp:Label ID="lblRoleTypeIDFactor" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("RoleTypeIDFactor") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelRoleTypeIDFactor" runat="server" Text='<%# Bind("RoleTypeIDFactor") %>'></asp:Label>
+						<asp:Label ID="LabelRoleTypeIDFactor" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("RoleTypeIDFactor") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="BossFactor">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtBossFactor" runat="server" Text='<%# Eval("BossFactor") %>'></asp:TextBox>
+						<asp:TextBox ID="txtBossFactor" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("BossFactor") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelBossFactor" runat="server" Text='<%# Bind("BossFactor") %>'></asp:Label>
+						<asp:Label ID="LabelBossFactor" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("BossFactor") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="Reward">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtReward" runat="server" Text='<%# Eval("Reward") %>'></asp:TextBox>
+						<asp:TextBox ID="txtReward" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("Reward") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelReward" runat="server" Text='<%# Bind("Reward") %>'></asp:Label>
+						<asp:Label ID="LabelReward" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("Reward") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="BossFinalValue">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtBossFinalValue" runat="server" Text='<%# Eval("BossFinalValue") %>'></asp:TextBox>
+						<asp:TextBox ID="txtBossFinalValue" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("BossFinalValue") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelBossFinalValue" runat="server" Text='<%# Bind("BossFinalValue") %>'></asp:Label>
+						<asp:Label ID="LabelBossFinalValue" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("BossFinalValue") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="AssistantFinalValue">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtAssistantFinalValue" runat="server" Text='<%# Eval("AssistantFinalValue") %>'></asp:TextBox>
+						<asp:TextBox ID="txtAssistantFinalValue" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("AssistantFinalValue") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelAssistantFinalValue" runat="server" Text='<%# Bind("AssistantFinalValue") %>'></asp:Label>
+						<asp:Label ID="LabelAssistantFinalValue" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("AssistantFinalValue") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="ManagerFinalValue">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtManagerFinalValue" runat="server" Text='<%# Eval("ManagerFinalValue") %>'></asp:TextBox>
+						<asp:TextBox ID="txtManagerFinalValue" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("ManagerFinalValue") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelManagerFinalValue" runat="server" Text='<%# Bind("ManagerFinalValue") %>'></asp:Label>
+						<asp:Label ID="LabelManagerFinalValue" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("ManagerFinalValue") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="ExtraReward1">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtExtraReward1" runat="server" Text='<%# Eval("ExtraReward1") %>'></asp:TextBox>
+						<asp:TextBox ID="txtExtraReward1" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("ExtraReward1") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelExtraReward1" runat="server" Text='<%# Bind("ExtraReward1") %>'></asp:Label>
+						<asp:Label ID="LabelExtraReward1" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("ExtraReward1") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="ExtraReward2">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtExtraReward2" runat="server" Text='<%# Eval("ExtraReward2") %>'></asp:TextBox>
+						<asp:TextBox ID="txtExtraReward2" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("ExtraReward2") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelExtraReward2" runat="server" Text='<%# Bind("ExtraReward2") %>'></asp:Label>
+						<asp:Label ID="LabelExtraReward2" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("ExtraReward2") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="ExtraReward3">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtExtraReward3" runat="server" Text='<%# Eval("ExtraReward3") %>'></asp:TextBox>
+						<asp:TextBox ID="txtExtraReward3" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("ExtraReward3") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelExtraReward3" runat="server" Text='<%# Bind("ExtraReward3") %>'></asp:Label>
+						<asp:Label ID="LabelExtraReward3" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("ExtraReward3") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="RoleTypeID">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtRoleTypeID" runat="server" Text='<%# Eval("RoleTypeID") %>'></asp:TextBox>
+						<asp:TextBox ID="txtRoleTypeID" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("RoleTypeID") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelRoleTypeID" runat="server" Text='<%# Bind("RoleTypeID") %>'></asp:Label>
+						<asp:Label ID="LabelRoleTypeID" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("RoleTypeID") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="Parameter1">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtParameter1" runat="server" Text='<%# Eval("Parameter1") %>'></asp:TextBox>
+						<asp:TextBox ID="txtParameter1" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("Parameter1") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelParameter1" runat="server" Text='<%# Bind("Parameter1") %>'></asp:Label>
+						<asp:Label ID="LabelParameter1" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("Parameter1") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="Parameter2">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtParameter2" runat="server" Text='<%# Eval("Parameter2") %>'></asp:TextBox>
+						<asp:TextBox ID="txtParameter2" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("Parameter2") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelParameter2" runat="server" Text='<%# Bind("Parameter2") %>'></asp:Label>
+						<asp:Label ID="LabelParameter2" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("Parameter2") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="Parameter3">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtParameter3" runat="server" Text='<%# Eval("Parameter3") %>'></asp:TextBox>
+						<asp:TextBox ID="txtParameter3" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("Parameter3") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelParameter3" runat="server" Text='<%# Bind("Parameter3") %>'></asp:Label>
+						<asp:Label ID="LabelParameter3" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("Parameter3") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
@@ -233,7 +233,7 @@
 		&nbsp;&nbsp;&nbsp;
 		<br />
 		<br />
-		<asp:Button ID="Button1" runat="server" Text="Add New OfficialEmployeeReward" OnClick="Button1_Click" CssClass="MehButton" /><br />
+		<asp:Button ID="Button1" runat="server" Text="Add New OfficialEmployeeReward" OnClick="Button1_Click" CssClass="MyButton" /><br />
 		<br />
 		<asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
 		</div>

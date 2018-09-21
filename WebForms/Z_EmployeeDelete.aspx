@@ -153,9 +153,9 @@
 	</div>
 		<br />
 		Are you sure you want to delete this record? &nbsp; &nbsp;
-		<asp:Button ID="btnYES" runat="server" Text="YES" OnClick="btnYES_Click" />
+		<asp:Button ID="btnYES" runat="server" Text="YES" OnClick="btnYES_Click" CssClass="MyButton" />
 		&nbsp; &nbsp;
-		<asp:Button ID="btnNO" runat="server" Text="NO" OnClick="btnNO_Click" /><br />
+		<asp:Button ID="btnNO" runat="server" Text="NO" OnClick="btnNO_Click" CssClass="MyButton" /><br />
 		<br />
 		&nbsp;&nbsp;
 </asp:Content>

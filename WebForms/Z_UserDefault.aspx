@@ -9,49 +9,49 @@
 			<h3>
 				List of all the Users</h3>
 			<br />
-			<asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" AutoGenerateColumns="False" AutoGenerateEditButton="True" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" BorderColor="Silver" BorderStyle="Solid" BorderWidth="1px" Font-Names="BYekan">
-			<FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-			<PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
-			<SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
-			<HeaderStyle BackColor="#9933CC" Font-Bold="True" ForeColor="White" />
-			<EditRowStyle BackColor="#33b5e5" />
-			<RowStyle BackColor="#EFF3FB" />
-			<AlternatingRowStyle BackColor="White" />
+			<asp:GridView ID="GridView1" runat="server" CssClass="GridView" AutoGenerateColumns="False" AutoGenerateEditButton="True" OnRowCancelingEdit="GridView1_RowCancelingEdit" OnRowEditing="GridView1_RowEditing" OnRowUpdating="GridView1_RowUpdating" >
+			<FooterStyle CssClass="GridViewFooter" />
+			<PagerStyle CssClass="GridViewPager" />
+			<SelectedRowStyle CssClass="GridViewSelectedRow" />
+			<HeaderStyle CssClass="GridViewHeader" />
+			<EditRowStyle CssClass="GridViewEditRow" />
+			<RowStyle CssClass="GridViewRow" />
+			<AlternatingRowStyle CssClass="GridViewAlternatingRow" />
 			<Columns>
 
 				<asp:TemplateField HeaderText="NationalCode">
 					<EditItemTemplate>
-						<asp:Label ID="lblNationalCode" runat="server" Text='<%# Eval("NationalCode") %>'></asp:Label>
+						<asp:Label ID="lblNationalCode" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Eval("NationalCode") %>'></asp:Label>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelNationalCode" runat="server" Text='<%# Bind("NationalCode") %>'></asp:Label>
+						<asp:Label ID="LabelNationalCode" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("NationalCode") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="Password">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtPassword" runat="server" Text='<%# Eval("Password") %>'></asp:TextBox>
+						<asp:TextBox ID="txtPassword" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("Password") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelPassword" runat="server" Text='<%# Bind("Password") %>'></asp:Label>
+						<asp:Label ID="LabelPassword" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("Password") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="LastPassChangeDate">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtLastPassChangeDate" runat="server" Text='<%# Eval("LastPassChangeDate") %>'></asp:TextBox>
+						<asp:TextBox ID="txtLastPassChangeDate" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("LastPassChangeDate") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelLastPassChangeDate" runat="server" Text='<%# Bind("LastPassChangeDate") %>'></asp:Label>
+						<asp:Label ID="LabelLastPassChangeDate" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("LastPassChangeDate") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
 				<asp:TemplateField HeaderText="IsActiveUser">
 					<EditItemTemplate>
-						<asp:TextBox ID="txtIsActiveUser" runat="server" Text='<%# Eval("IsActiveUser") %>'></asp:TextBox>
+						<asp:TextBox ID="txtIsActiveUser" runat="server" CssClass="GridViewEditItemTextBox" Text='<%# Eval("IsActiveUser") %>'></asp:TextBox>
 					</EditItemTemplate>
 					<ItemTemplate>
-						<asp:Label ID="LabelIsActiveUser" runat="server" Text='<%# Bind("IsActiveUser") %>'></asp:Label>
+						<asp:Label ID="LabelIsActiveUser" runat="server" CssClass="GridViewEditItemLabel" Text='<%# Bind("IsActiveUser") %>'></asp:Label>
 					</ItemTemplate>
 				</asp:TemplateField>
 
@@ -62,7 +62,7 @@
 		&nbsp;&nbsp;&nbsp;
 		<br />
 		<br />
-		<asp:Button ID="Button1" runat="server" Text="Add New User" OnClick="Button1_Click" CssClass="MehButton" /><br />
+		<asp:Button ID="Button1" runat="server" Text="Add New User" OnClick="Button1_Click" CssClass="MyButton" /><br />
 		<br />
 		<asp:Label ID="lblResult" runat="server" Text=""></asp:Label>
 		</div>
