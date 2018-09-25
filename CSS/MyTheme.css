@@ -10,8 +10,8 @@
 
     --MainTextColorLight                : white;
     --MainTextColorLightMoreDark        : #CCCCCC;
-    --MainTextColor-dark                : black;
-    --MainTextColor-darkMoreLight       : #333333;
+    --MainTextColorDark                : black;
+    --MainTextColorDarkMoreLight       : #333333;
 
     --MainBackgroundColor1              : white;
     --MainBackgroundColor2              : #e7d7ef;
@@ -29,8 +29,8 @@
         
     --MainTextColorLight              : gold;
     --MainTextColorLightMoreDark      : #CCCCCC;
-    --MainTextColor-dark                : brown;
-    --MainTextColor-darkMoreLight     : #333333;
+    --MainTextColorDark                : brown;
+    --MainTextColorDarkMoreLight     : #333333;
 
     --MainFont                           : WebFont_Nazanin;*/
 
@@ -43,13 +43,14 @@
 		
 html
 {
-	font-family : "Lucida Sans" , sans-serif;
+	font-family: var(--MainFont);
 }
 
 .header{
 	background-color : var(--MainForegroundColor);
 	color : var(--MainTextColorLight);
 	padding : 15px;
+    font-family: var(--MainFont);
 			
 }
 
@@ -57,6 +58,7 @@ html
 	background-color : var(--MainForegroundColorMoreLight);
 	color : var(--MainTextColorLight);
 	padding : 15px;
+    font-family: var(--MainFont);
 			
 }
 		
@@ -112,6 +114,7 @@ html
 	list-style-type : none;
 	margin : 0;
 	padding : 0;
+    font-family: var(--MainFont);
 }
 		
 .menu li{
@@ -120,6 +123,7 @@ html
 	background-color : var(--MainForegroundColor2);
 	color : var(--MainTextColorLight);
 	box-shadow : 0 1px 3px rgba(0,0,0,0.12) , 0 1px 2px rgba(0,0,0,0.24);
+    font-family: var(--MainFont);
 }
 		
 .menu li:hover
@@ -138,6 +142,7 @@ html
 	text-align : center;
 	font-size : 14px;
 	box-shadow : 0 1px 3px rgba(0,0,0,0.12) , 0 1px 2px rgba(0,0,0,0.24);
+    font-family: var(--MainFont);
 }
 		
 .footer{
@@ -146,6 +151,7 @@ html
 	text-align : center;
 	font-size : 12px;
 	padding : 15px;
+    font-family: var(--MainFont);
 }
 
 
@@ -159,7 +165,7 @@ html
 {
     font-family:var(--MainFont);
     font-style:normal;
-    color:var(--MainTextColor-dark);
+    color:var(--MainTextColorDark);
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
@@ -180,7 +186,7 @@ html
 {
     font-family:var(--MainFont);
     font-style:normal;
-    color:var(--MainTextColor-dark);
+    color:var(--MainTextColorDark);
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
@@ -221,7 +227,7 @@ html
 {
     padding:4px; 
     font-family:var(--MainFont);
-    border-color: var(--MainTextColor-dark);
+    border-color: var(--MainTextColorDark);
     border-style:solid;
     border-width: 1px;
     width: 100%;
@@ -287,7 +293,7 @@ html
     width:100%;
     text-align:right;
     font-family:var(--MainFont);
-    color:var(--MainTextColor-dark);
+    color:var(--MainTextColorDark);
     border-radius:5px;
     font-size: 16px;
 }
