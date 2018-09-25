@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="WebForms_MasterPage" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPagePersian.master.cs" Inherits="MasterPages_MasterPagePersian" %>
 
 <!DOCTYPE html>
 
@@ -15,32 +15,15 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div class="header">
-			<h1>Header</h1>
+    <form id="form1" runat="server" dir="rtl">
+        <div class="header" dir="rtl">
+			<h1 dir="rtl">فارسی</h1>
 		</div>
-		<div class="GlobalObjects" >
-			<h1>Session Objects</h1>
+		<div class="GlobalObjects" dir="rtl">
+			<h1>سشن</h1>
 		</div>
 		<div class="row">
-			<div class="col-3 col-m-3 menu">
-				<ul>
-					<li>Item 1</li>
-					<li>Item 2</li>
-					<li>Item 3</li>
-					<li>Item 4</li>
-				</ul>
-			</div>
-			<div class="col-6 col-m-9">
-				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-        
-                </asp:ContentPlaceHolder>
-                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
-        
-                </asp:ContentPlaceHolder>
-			</div>
-
-            <div class="col-3 col-m-12 right">
+			<div class="col-3 col-m-12 right">
 				<div class="aside">
 					<h2>What?</h2>
 					<p>Chania is a city on the island of Crete.</p>
@@ -52,6 +35,25 @@
 					<p>You can reach Chania airport from all over Europe.</p>
 				</div>
 			</div>
+            
+            <div class="col-6 col-m-9">
+				<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                </asp:ContentPlaceHolder>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+                </asp:ContentPlaceHolder>
+			</div>
+
+            <div class="col-3 col-m-3 menu">
+				<ul>
+					<li>Item 1</li>
+					<li>Item 2</li>
+					<li>Item 3</li>
+					<li>Item 4</li>
+				</ul>
+			</div>
+			
 		</div>
         <div class="footer">
 			<p>Resize the browser window to see how the content respond to the resizing.</p>

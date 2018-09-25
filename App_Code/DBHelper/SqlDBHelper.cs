@@ -8,7 +8,8 @@ namespace Rewards.DBA
 {
 class SqlDBHelper
 {
-    static string CONNECTION_STRING = @"Data Source=MEHRAN-PC\SQLEXPRESS; User Id=sa; Password=123; Initial Catalog = RewardsDB;";
+    //static string CONNECTION_STRING = @"Data Source=MEHRAN-PC\SQLEXPRESS; User Id=sa; Password=123; Initial Catalog = RewardsDB;";
+    static string CONNECTION_STRING = @"Data Source=10.32.0.142; User Id=rewardsuser; Password=tbzrewards4534; Initial Catalog = RewardsDB;";
     //= System.Configuration.ConfigurationManager.ConnectionStrings[RewardsDB].ConnectionString;
 
 	// This function will be used to execute R(CRUD) operation of parameterless commands

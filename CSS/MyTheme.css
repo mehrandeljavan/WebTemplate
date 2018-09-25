@@ -52,6 +52,13 @@ html
 	padding : 15px;
 			
 }
+
+.GlobalObjects{
+	background-color : var(--MainForegroundColorMoreLight);
+	color : var(--MainTextColorLight);
+	padding : 15px;
+			
+}
 		
 [class*="col-"]
 {
@@ -141,7 +148,12 @@ html
 	padding : 15px;
 }
 
+
+
 /*---ASP.net controls -------------------------------------------------------------------*/
+.h1{
+    font-family: var(--MainFont);
+}
 
 .MyTextBox
 {
