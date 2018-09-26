@@ -38,6 +38,8 @@
 				</asp:TemplateField>
 
 				<asp:HyperLinkField Text="Delete" DataNavigateUrlFields="ActivityTypeID" DataNavigateUrlFormatString="Z_ActivityTypeDelete.aspx?activityTypeID={0}" />
+                <asp:HyperLinkField Text="Insert" DataNavigateUrlFields="ActivityTypeID" DataNavigateUrlFormatString="Z_ActivityTypeAdd.aspx" />
+                <asp:HyperLinkField Text="Edit"   DataNavigateUrlFields="ActivityTypeID" DataNavigateUrlFormatString="Z_ActivityTypeEdit.aspx?activityTypeID={0}" />
 			</Columns>
 		</asp:GridView>
 

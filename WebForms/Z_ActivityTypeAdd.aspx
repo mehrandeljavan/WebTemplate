@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="..\MasterPages\MasterPagePersian.master" AutoEventWireup="true" CodeFile="Z_ActivityTypeAdd.aspx.cs" Inherits="WebForms_Z_ActivityTypeAdd" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="..\MasterPages\MasterPageRTL.master" AutoEventWireup="true" CodeFile="Z_ActivityTypeAdd.aspx.cs" Inherits="WebForms_Z_ActivityTypeAdd" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

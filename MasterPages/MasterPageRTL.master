@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPagePersian.master.cs" Inherits="MasterPages_MasterPagePersian" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageRTL.master.cs" Inherits="MasterPages_MasterPagePersian" %>
 
 <!DOCTYPE html>
 
